@@ -1,0 +1,118 @@
+==========================================================================
+=             MANUFACTURING COST AND PROFITABILITY ANALYSIS              =
+==========================================================================
+Unit cost = (material + labour + machine) x (1 + wastage %)
+Batch cost = unit cost x units planned
+Profit     = selling price x units sold - batch cost
+Target is met only when profit >= target profit for the batch
+
+=== TEST CASE 1: Batch 1 - Clear winner (Steel Bracket) ===
+--------------------------------------------------------------------------
+
+--- M1 Steel Bracket ---
+    Steel sheet (1 x 80)                           80.00
+    Bolt pack (6 x 5)                              30.00
+    Paint (0.1 x 200)                              20.00
+  Material cost per unit                          130.00
+  Labour (0.5 h x 300)                            150.00
+  Machine (0.25 h x 400)                          100.00
+  Sub-cost                                        380.00
+  Wastage (4.0%)                                   15.20
+  --------------------------------------------------------
+  UNIT COST                                       395.20
+  Batch cost (1000 units)                      395200.00
+  Revenue (950 sold x 520)                     494000.00
+  Unsold inventory                                    50
+  Profit margin                                    20.0%
+  ========================================================
+  VERDICT: TARGET MET - profit 98,800.00 >= target 80,000.00
+
+--------------------------------------------------------------------------
+  Total batch cost                              395,200.00
+  Total revenue                                 494,000.00
+  Total profit                                   98,800.00
+  Targets met: 1   not met: 0
+--------------------------------------------------------------------------
+
+=== TEST CASE 2: Batch 2 - Near miss and a bare pass ===
+--------------------------------------------------------------------------
+
+--- M2 Plastic Bottle ---
+    Preform (1 x 15)                               15.00
+    Cap (1 x 2.5)                                   2.50
+    Label (1 x 3.5)                                 3.50
+  Material cost per unit                           21.00
+  Labour (0.2 h x 250)                             50.00
+  Machine (0.1 h x 600)                            60.00
+  Sub-cost                                        131.00
+  Wastage (6.0%)                                    7.86
+  --------------------------------------------------------
+  UNIT COST                                       138.86
+  Batch cost (5000 units)                      694300.00
+  Revenue (5000 sold x 165)                    825000.00
+  Unsold inventory                                     0
+  Profit margin                                   15.84%
+  ========================================================
+  VERDICT: TARGET NOT MET - profit 130,700.00 < target 150,000.00 (short by 19,300.00)
+
+--- M3 Wooden Chair ---
+    Plywood (2 x 450)                             900.00
+    Nails (20 x 1)                                 20.00
+    Varnish (0.3 x 400)                           120.00
+  Material cost per unit                         1040.00
+  Labour (2.0 h x 350)                            700.00
+  Machine (0.5 h x 500)                           250.00
+  Sub-cost                                       1990.00
+  Wastage (5.0%)                                   99.50
+  --------------------------------------------------------
+  UNIT COST                                      2089.50
+  Batch cost (200 units)                       417900.00
+  Revenue (180 sold x 2600)                    468000.00
+  Unsold inventory                                    20
+  Profit margin                                   10.71%
+  ========================================================
+  VERDICT: TARGET MET - profit 50,100.00 >= target 45,000.00
+
+--------------------------------------------------------------------------
+  Total batch cost                            1,112,200.00
+  Total revenue                               1,293,000.00
+  Total profit                                  180,800.00
+  Targets met: 1   not met: 1
+--------------------------------------------------------------------------
+
+=== TEST CASE 3: Batch 3 - No sales at all (Ceramic Mug) ===
+--------------------------------------------------------------------------
+
+--- M4 Ceramic Mug ---
+    Body (1 x 40)                                  40.00
+    Handle (1 x 8)                                  8.00
+    Glaze (0.2 x 150)                              30.00
+  Material cost per unit                           78.00
+  Labour (0.4 h x 300)                            120.00
+  Machine (0.2 h x 700)                           140.00
+  Sub-cost                                        338.00
+  Wastage (8.0%)                                   27.04
+  --------------------------------------------------------
+  UNIT COST                                       365.04
+  Batch cost (300 units)                       109512.00
+  Revenue (0 sold x 480)                            0.00
+  Unsold inventory                                   300
+  Profit margin                               n/a (no sales)
+  ========================================================
+  VERDICT: TARGET NOT MET - profit -109,512.00 < target 10,000.00 (short by 119,512.00)
+
+--------------------------------------------------------------------------
+  Total batch cost                              109,512.00
+  Total revenue                                       0.00
+  Total profit                                 -109,512.00
+  Targets met: 0   not met: 1
+--------------------------------------------------------------------------
+
+PATTERN - production line:
+  [] 
+  ## ## 
+  [] [] [] 
+  ## ## ## ## 
+  [] [] [] [] [] 
+  ## ## ## ## ## ## 
+End of manufacturing report.

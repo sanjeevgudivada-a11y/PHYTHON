@@ -1,0 +1,123 @@
+==========================================================================
+=                 MULTI-CURRENCY TRAVEL BUDGET ANALYSIS                  =
+==========================================================================
+Local price is converted with: INR = local / rate
+A 2% bank fee is added on the INR value of every leg
+A leg is covered only when its cost fits the remaining budget
+
+CURRENCY RATES (foreign units per INR 1):
+  Thailand     THB   1 INR = 0.42 THB
+  Japan        JPY   1 INR = 1.75 JPY
+  UAE          AED   1 INR = 0.044 AED
+  USA          USD   1 INR = 0.012 USD
+
+=== TEST CASE 1: Grand tour within budget ===
+--------------------------------------------------------------------------
+  Budget: Rs 120,000.00    Bank fee: 2%
+
+--- Thailand ---
+  Hotel 3 nights = 6000 THB                   6,000.00
+  Food tour = 1500 THB                        1,500.00
+  Temple passes = 500 THB                       500.00
+  Local total                                 8,000.00 THB
+  Converted INR                              19,047.62
+  Bank fee (2%)                                 380.95
+  COUNTRY COST                               19,428.57
+  STATUS: COVERED - budget left Rs 100,571.43
+
+--- Japan ---
+  Rail pass = 30000 JPY                      30,000.00
+  Hotel 2 nights = 26000 JPY                 26,000.00
+  Museums = 4000 JPY                          4,000.00
+  Local total                                60,000.00 JPY
+  Converted INR                              34,285.71
+  Bank fee (2%)                                 685.71
+  COUNTRY COST                               34,971.43
+  STATUS: COVERED - budget left Rs 65,600.00
+
+--- UAE ---
+  Desert safari = 850 AED                       850.00
+  Hotel 2 nights = 1100 AED                   1,100.00
+  Airport transfer = 250 AED                    250.00
+  Local total                                 2,200.00 AED
+  Converted INR                              50,000.00
+  Bank fee (2%)                               1,000.00
+  COUNTRY COST                               51,000.00
+  STATUS: COVERED - budget left Rs 14,600.00
+
+--------------------------------------------------------------------------
+  Countries covered                          3 of 3
+  Total spent                                   105,400.00
+  Budget left                                    14,600.00
+  Legs skipped: 0
+--------------------------------------------------------------------------
+
+=== TEST CASE 2: One leg exceeds the pot ===
+--------------------------------------------------------------------------
+  Budget: Rs 60,000.00    Bank fee: 2%
+
+--- Thailand ---
+  Hotel 3 nights = 6000 THB                   6,000.00
+  Food tour = 1500 THB                        1,500.00
+  Temple passes = 500 THB                       500.00
+  Local total                                 8,000.00 THB
+  Converted INR                              19,047.62
+  Bank fee (2%)                                 380.95
+  COUNTRY COST                               19,428.57
+  STATUS: COVERED - budget left Rs 40,571.43
+
+--- USA ---
+  City tour = 300 USD                           300.00
+  Hotel 3 nights = 1050 USD                   1,050.00
+  Museum = 80 USD                                80.00
+  Local total                                 1,430.00 USD
+  Converted INR                             119,166.67
+  Bank fee (2%)                               2,383.33
+  COUNTRY COST                              121,550.00
+  STATUS: SKIPPED - need Rs 121,550.00 but only Rs 40,571.43 left (short Rs 80,978.57)
+
+--- Japan ---
+  Rail pass = 30000 JPY                      30,000.00
+  Hotel 2 nights = 26000 JPY                 26,000.00
+  Museums = 4000 JPY                          4,000.00
+  Local total                                60,000.00 JPY
+  Converted INR                              34,285.71
+  Bank fee (2%)                                 685.71
+  COUNTRY COST                               34,971.43
+  STATUS: COVERED - budget left Rs 5,600.00
+
+--------------------------------------------------------------------------
+  Countries covered                          2 of 3
+  Total spent                                    54,400.00
+  Budget left                                     5,600.00
+  Legs skipped: 1
+--------------------------------------------------------------------------
+
+=== TEST CASE 3: Single expensive leg ===
+--------------------------------------------------------------------------
+  Budget: Rs 120,000.00    Bank fee: 2%
+
+--- USA ---
+  City tour = 300 USD                           300.00
+  Hotel 3 nights = 1050 USD                   1,050.00
+  Museum = 80 USD                                80.00
+  Local total                                 1,430.00 USD
+  Converted INR                             119,166.67
+  Bank fee (2%)                               2,383.33
+  COUNTRY COST                              121,550.00
+  STATUS: SKIPPED - need Rs 121,550.00 but only Rs 120,000.00 left (short Rs 1,550.00)
+
+--------------------------------------------------------------------------
+  Countries covered                          0 of 1
+  Total spent                                         0.00
+  Budget left                                   120,000.00
+  Legs skipped: 1
+--------------------------------------------------------------------------
+
+PATTERN - passport stamp:
+  ..@..
+  .@@@.
+  @@@@@
+  .@@@.
+  ..@..
+End of travel budget report.

@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="167 14 1102 1532" width="1102" height="1532">
+<rect x="167" y="14" width="1102" height="1532" fill="#f8fafc"/>
+<text x="183" y="50" font-family="DejaVu Sans, Verdana, sans-serif" font-size="17" font-weight="bold" fill="#0f172a">Flowchart 10: Campus Event Financial Planning</text>
+<line x1="340.0" y1="118.0" x2="340.0" y2="164.0" stroke="#334155" stroke-width="1.8"/><polygon points="340.0,164.0 334.8,154.5 345.2,154.5" fill="#334155"/>
+<line x1="340.0" y1="228.0" x2="340.0" y2="274.0" stroke="#334155" stroke-width="1.8"/><polygon points="340.0,274.0 334.8,264.5 345.2,264.5" fill="#334155"/>
+<line x1="340.0" y1="322.0" x2="340.0" y2="368.0" stroke="#334155" stroke-width="1.8"/><polygon points="340.0,368.0 334.8,358.5 345.2,358.5" fill="#334155"/>
+<line x1="460.0" y1="427.0" x2="720.0" y2="427.0" stroke="#334155" stroke-width="1.8"/>
+<line x1="720.0" y1="427.0" x2="720.0" y2="469.0" stroke="#334155" stroke-width="1.8"/><polygon points="720.0,469.0 714.8,459.5 725.2,459.5" fill="#334155"/>
+<line x1="720.0" y1="533.0" x2="720.0" y2="579.0" stroke="#334155" stroke-width="1.8"/><polygon points="720.0,579.0 714.8,569.5 725.2,569.5" fill="#334155"/>
+<line x1="720.0" y1="643.0" x2="720.0" y2="689.0" stroke="#334155" stroke-width="1.8"/><polygon points="720.0,689.0 714.8,679.5 725.2,679.5" fill="#334155"/>
+<line x1="720.0" y1="753.0" x2="720.0" y2="799.0" stroke="#334155" stroke-width="1.8"/><polygon points="720.0,799.0 714.8,789.5 725.2,789.5" fill="#334155"/>
+<line x1="720.0" y1="900.0" x2="720.0" y2="930.0" stroke="#334155" stroke-width="1.8"/><polygon points="720.0,930.0 714.8,920.5 725.2,920.5" fill="#334155"/>
+<line x1="840.0" y1="849.5" x2="1100.0" y2="849.5" stroke="#334155" stroke-width="1.8"/>
+<line x1="1100.0" y1="849.5" x2="1100.0" y2="891.5" stroke="#334155" stroke-width="1.8"/><polygon points="1100.0,891.5 1094.8,882.0 1105.2,882.0" fill="#334155"/>
+<line x1="1100.0" y1="939.5" x2="1100.0" y2="1008.0" stroke="#334155" stroke-width="1.8"/>
+<line x1="1100.0" y1="1008.0" x2="720.0" y2="1008.0" stroke="#334155" stroke-width="1.8"/><polygon points="720.0,1008.0 729.5,1002.8 729.5,1013.2" fill="#334155"/>
+<line x1="720.0" y1="994.0" x2="720.0" y2="1008.0" stroke="#334155" stroke-width="1.8"/>
+<line x1="720.0" y1="1008.0" x2="720.0" y2="1054.0" stroke="#334155" stroke-width="1.8"/><polygon points="720.0,1054.0 714.8,1044.5 725.2,1044.5" fill="#334155"/>
+<line x1="720.0" y1="1118.0" x2="720.0" y2="1164.0" stroke="#334155" stroke-width="1.8"/><polygon points="720.0,1164.0 714.8,1154.5 725.2,1154.5" fill="#334155"/>
+<line x1="720.0" y1="1228.0" x2="720.0" y2="1256.0" stroke="#334155" stroke-width="1.8"/><line x1="720.0" y1="1256.0" x2="530.0" y2="1256.0" stroke="#334155" stroke-width="1.8"/><line x1="530.0" y1="1256.0" x2="530.0" y2="336.0" stroke="#334155" stroke-width="1.8"/><line x1="530.0" y1="336.0" x2="340.0" y2="336.0" stroke="#334155" stroke-width="1.8"/><line x1="340.0" y1="336.0" x2="340.0" y2="368.0" stroke="#334155" stroke-width="1.8"/><polygon points="340.0,368.0 334.8,358.5 345.2,358.5" fill="#334155"/>
+<line x1="340.0" y1="486.0" x2="340.0" y2="1228.0" stroke="#334155" stroke-width="1.8"/>
+<line x1="340.0" y1="1228.0" x2="340.0" y2="1274.0" stroke="#334155" stroke-width="1.8"/><polygon points="340.0,1274.0 334.8,1264.5 345.2,1264.5" fill="#334155"/>
+<line x1="340.0" y1="1322.0" x2="340.0" y2="1368.0" stroke="#334155" stroke-width="1.8"/><polygon points="340.0,1368.0 334.8,1358.5 345.2,1358.5" fill="#334155"/>
+<line x1="340.0" y1="1416.0" x2="340.0" y2="1462.0" stroke="#334155" stroke-width="1.8"/><polygon points="340.0,1462.0 334.8,1452.5 345.2,1452.5" fill="#334155"/>
+<text x="474.0" y="418.0" font-family="DejaVu Sans, Verdana, sans-serif" font-size="12.5" fill="#475569">Yes</text>
+<text x="353.0" y="504.0" font-family="DejaVu Sans, Verdana, sans-serif" font-size="12.5" fill="#475569">No</text>
+<text x="733.0" y="918.0" font-family="DejaVu Sans, Verdana, sans-serif" font-size="12.5" fill="#475569">Yes</text>
+<text x="854.0" y="840.5" font-family="DejaVu Sans, Verdana, sans-serif" font-size="12.5" fill="#475569">No</text>
+<rect x="255.0" y="72.0" width="170.0" height="46.0" rx="23.0" fill="#dbeafe" stroke="#2563eb" stroke-width="2"/><text font-family="DejaVu Sans, Verdana, sans-serif" font-size="13" fill="#0f172a" text-anchor="middle"><tspan x="340.0" dy="0" y="99.5">Start</tspan></text>
+<polygon points="233.1,164.0 462.9,164.0 446.9,228.0 217.1,228.0" fill="#dcfce7" stroke="#16a34a" stroke-width="2"/><text font-family="DejaVu Sans, Verdana, sans-serif" font-size="13" fill="#0f172a" text-anchor="middle"><tspan x="340.0" dy="0" y="192.0">Read sponsors, stalls,</tspan><tspan x="340.0" dy="17">fixed costs, scenarios</tspan></text>
+<rect x="217.1" y="274.0" width="245.8" height="48.0" rx="5" fill="#ffffff" stroke="#334155" stroke-width="2"/><text font-family="DejaVu Sans, Verdana, sans-serif" font-size="13" fill="#0f172a" text-anchor="middle"><tspan x="340.0" dy="0" y="302.5">Print event cost sheet</tspan></text>
+<polygon points="340.0,368.0 460.0,427.0 340.0,486.0 220.0,427.0" fill="#fef9c3" stroke="#b45309" stroke-width="2"/><text font-family="DejaVu Sans, Verdana, sans-serif" font-size="13" fill="#0f172a" text-anchor="middle"><tspan x="340.0" dy="0" y="423.0">s &lt; number of</tspan><tspan x="340.0" dy="17">scenarios?</tspan></text>
+<rect x="577.4" y="469.0" width="285.3" height="64.0" rx="5" fill="#ffffff" stroke="#334155" stroke-width="2"/><text font-family="DejaVu Sans, Verdana, sans-serif" font-size="13" fill="#0f172a" text-anchor="middle"><tspan x="720.0" dy="0" y="497.0">Unpack scenario; income =</tspan><tspan x="720.0" dy="17">tickets + sponsors + stalls</tspan></text>
+<rect x="581.3" y="579.0" width="277.4" height="64.0" rx="5" fill="#ffffff" stroke="#334155" stroke-width="2"/><text font-family="DejaVu Sans, Verdana, sans-serif" font-size="13" fill="#0f172a" text-anchor="middle"><tspan x="720.0" dy="0" y="607.0">expenses = fixed + buses +</tspan><tspan x="720.0" dy="17">catering + kits</tspan></text>
+<rect x="601.0" y="689.0" width="237.9" height="64.0" rx="5" fill="#ffffff" stroke="#334155" stroke-width="2"/><text font-family="DejaVu Sans, Verdana, sans-serif" font-size="13" fill="#0f172a" text-anchor="middle"><tspan x="720.0" dy="0" y="717.0">contingency 5%; total</tspan><tspan x="720.0" dy="17">expenses; profit</tspan></text>
+<polygon points="720.0,799.0 840.0,849.5 720.0,900.0 600.0,849.5" fill="#fef9c3" stroke="#b45309" stroke-width="2"/><text font-family="DejaVu Sans, Verdana, sans-serif" font-size="13" fill="#0f172a" text-anchor="middle"><tspan x="720.0" dy="0" y="854.0">profit &gt;= 0?</tspan></text>
+<rect x="593.1" y="930.0" width="253.7" height="64.0" rx="5" fill="#ffffff" stroke="#334155" stroke-width="2"/><text font-family="DejaVu Sans, Verdana, sans-serif" font-size="13" fill="#0f172a" text-anchor="middle"><tspan x="720.0" dy="0" y="958.0">Count profitable; print</tspan><tspan x="720.0" dy="17">PROFIT</tspan></text>
+<rect x="969.2" y="891.5" width="261.6" height="48.0" rx="5" fill="#ffffff" stroke="#334155" stroke-width="2"/><text font-family="DejaVu Sans, Verdana, sans-serif" font-size="13" fill="#0f172a" text-anchor="middle"><tspan x="1100.0" dy="0" y="920.0">Count losses; print LOSS</tspan></text>
+<rect x="593.1" y="1054.0" width="253.7" height="64.0" rx="5" fill="#ffffff" stroke="#334155" stroke-width="2"/><text font-family="DejaVu Sans, Verdana, sans-serif" font-size="13" fill="#0f172a" text-anchor="middle"><tspan x="720.0" dy="0" y="1082.0">Scan paid = 0..2000 for</tspan><tspan x="720.0" dy="17">break-even</tspan></text>
+<rect x="581.3" y="1164.0" width="277.4" height="64.0" rx="5" fill="#ffffff" stroke="#334155" stroke-width="2"/><text font-family="DejaVu Sans, Verdana, sans-serif" font-size="13" fill="#0f172a" text-anchor="middle"><tspan x="720.0" dy="0" y="1192.0">Print scenario result; s =</tspan><tspan x="720.0" dy="17">s + 1</tspan></text>
+<polygon points="244.9,1274.0 451.0,1274.0 435.0,1322.0 228.9,1322.0" fill="#dcfce7" stroke="#16a34a" stroke-width="2"/><text font-family="DejaVu Sans, Verdana, sans-serif" font-size="13" fill="#0f172a" text-anchor="middle"><tspan x="340.0" dy="0" y="1302.5">Print event summary</tspan></text>
+<rect x="205.2" y="1368.0" width="269.5" height="48.0" rx="5" fill="#ffffff" stroke="#334155" stroke-width="2"/><text font-family="DejaVu Sans, Verdana, sans-serif" font-size="13" fill="#0f172a" text-anchor="middle"><tspan x="340.0" dy="0" y="1396.5">Print stage-light pattern</tspan></text>
+<rect x="255.0" y="1462.0" width="170.0" height="46.0" rx="23.0" fill="#dbeafe" stroke="#2563eb" stroke-width="2"/><text font-family="DejaVu Sans, Verdana, sans-serif" font-size="13" fill="#0f172a" text-anchor="middle"><tspan x="340.0" dy="0" y="1489.5">End</tspan></text>
+</svg>

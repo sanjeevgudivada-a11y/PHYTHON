@@ -1,0 +1,77 @@
+==========================================================================
+=            MULTI-PLAN TELECOMMUNICATIONS COST OPTIMIZATION             =
+==========================================================================
+Pack cost = ceil(days / validity) x price; excess usage is charged
+per extra GB / minute / SMS beyond the packs that were bought
+A plan is eligible when its total cost stays within the budget
+
+=== TEST CASE 1: Light user, one month ===
+--------------------------------------------------------------------------
+Requirement: 1.5 GB, 120 min, 50 SMS over 30 days | Budget Rs 500
+--------------------------------------------------------------------------
+Code  Plan         Packs      Base    Excess     Total  Eligible
+--------------------------------------------------------------------------
+P1    TalkLite         2    398.00      0.00    398.00  YES
+P2    DataMax          2    798.00      0.00    798.00  no
+P3    PowerPlus        2   1298.00      0.00   1298.00  no
+P4    Smart90          1    999.00      0.00    999.00  no
+P5    Economy          2    198.00     51.00    249.00  YES
+
+MOST ECONOMICAL ELIGIBLE PLAN: P5 Economy - Rs 249.00 (budget Rs 500)
+  Breakdown: 2 pack(s) = Rs 198.00 + excess data Rs 45.00 + excess minutes Rs 6.00 + excess SMS Rs 0.00
+Cost bar chart (1 # = Rs 100):
+  P1 ### 398
+  P2 ####### 798
+  P3 ############ 1298
+  P4 ######### 999
+  P5 ## 249 *
+
+=== TEST CASE 2: Heavy user, three months ===
+--------------------------------------------------------------------------
+Requirement: 4.5 GB, 950 min, 200 SMS over 90 days | Budget Rs 1500
+--------------------------------------------------------------------------
+Code  Plan         Packs      Base    Excess     Total  Eligible
+--------------------------------------------------------------------------
+P1    TalkLite         4    796.00    177.50    973.50  YES
+P2    DataMax          4   1596.00      0.00   1596.00  no
+P3    PowerPlus        4   2596.00      0.00   2596.00  no
+P4    Smart90          1    999.00    165.00   1164.00  YES
+P5    Economy          4    396.00    450.00    846.00  YES
+
+MOST ECONOMICAL ELIGIBLE PLAN: P5 Economy - Rs 846.00 (budget Rs 1500)
+  Breakdown: 4 pack(s) = Rs 396.00 + excess data Rs 225.00 + excess minutes Rs 225.00 + excess SMS Rs 0.00
+Cost bar chart (1 # = Rs 100):
+  P1 ######### 974
+  P2 ############### 1596
+  P3 ######################### 2596
+  P4 ########### 1164
+  P5 ######## 846 *
+
+=== TEST CASE 3: Tight budget, one month ===
+--------------------------------------------------------------------------
+Requirement: 2 GB, 200 min, 100 SMS over 28 days | Budget Rs 150
+--------------------------------------------------------------------------
+Code  Plan         Packs      Base    Excess     Total  Eligible
+--------------------------------------------------------------------------
+P1    TalkLite         1    199.00    105.00    304.00  no
+P2    DataMax          1    399.00      0.00    399.00  no
+P3    PowerPlus        1    649.00      0.00    649.00  no
+P4    Smart90          1    999.00      0.00    999.00  no
+P5    Economy          1     99.00    192.50    291.50  no
+
+NO PLAN IS ELIGIBLE WITHIN THE BUDGET
+  Cheapest option: P5 Economy costs Rs 291.50 - shortfall Rs 141.50
+Cost bar chart (1 # = Rs 100):
+  P1 ### 304
+  P2 ### 399
+  P3 ###### 649
+  P4 ######### 999
+  P5 ## 292
+
+PATTERN - signal bars:
+  |     1 bar(s)
+  |   |     2 bar(s)
+  |   |   |     3 bar(s)
+  |   |   |   |     4 bar(s)
+  |   |   |   |   |     5 bar(s)
+End of telecom plan report.

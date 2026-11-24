@@ -1,0 +1,116 @@
+**********************************************************************
+*            HOSPITAL BILLING AND PATIENT CLASSIFICATION             *
+**********************************************************************
+Concessions: age >= 70 -> 20% | age >= 60 -> 10% | age <= 12 -> 15%
+Validation: age 1-120, days 1-60, known consult/room/procedure/tests
+Classes: A < 5000 | B 5000-15000 | C 15000-50000 | D >= 50000
+
+=== TEST CASE 1: Batch 1 - Valid patients with concessions ===
+----------------------------------------------------------------------
+
+--- P101 Ramesh Kumar (68 yrs) ---
+  Consultation (Consultant)                    1200.00
+  Room rent (Private x 3 day(s))              18000.00
+  Procedure (Minor Surgery)                    8000.00
+  Tests: Blood Test  ECG                        750.00
+  ----------------------------------------------------
+  Subtotal                                    27950.00
+  Concession (senior citizen (age >= 60))     -2795.00
+  ====================================================
+  PAYABLE                                     25155.00
+  Classification: C - Premium
+
+--- P102 Aarav Sharma (8 yrs) ---
+  Consultation (Specialist)                     800.00
+  Room rent (Semi-Private x 2 day(s))          6000.00
+  Procedure (Physiotherapy)                    3000.00
+  Tests: X-Ray  Sugar Test                      900.00
+  ----------------------------------------------------
+  Subtotal                                    10700.00
+  Concession (child (age <= 12))              -1605.00
+  ====================================================
+  PAYABLE                                      9095.00
+  Classification: B - Standard
+
+Summary: valid = 2  invalid = 0
+
+=== TEST CASE 2: Batch 2 - Age boundary patients ===
+----------------------------------------------------------------------
+
+--- P103 Sushma Devi (60 yrs) ---
+  Consultation (General)                        500.00
+  Room rent (General x 60 day(s))             90000.00
+  Procedure (None)                                0.00
+  Tests: Blood Test                             350.00
+  ----------------------------------------------------
+  Subtotal                                    90850.00
+  Concession (senior citizen (age >= 60))     -9085.00
+  ====================================================
+  PAYABLE                                     81765.00
+  Classification: D - Critical Care
+
+--- P104 Kiara Patel (12 yrs) ---
+  Consultation (General)                        500.00
+  Room rent (General x 1 day(s))               1500.00
+  Procedure (None)                                0.00
+  Tests                                           0.00
+  ----------------------------------------------------
+  Subtotal                                     2000.00
+  Concession (child (age <= 12))               -300.00
+  ====================================================
+  PAYABLE                                      1700.00
+  Classification: A - Economy
+
+--- P105 Mohan Lal (70 yrs) ---
+  Consultation (Specialist)                     800.00
+  Room rent (Semi-Private x 1 day(s))          3000.00
+  Procedure (None)                                0.00
+  Tests: ECG                                    400.00
+  ----------------------------------------------------
+  Subtotal                                     4200.00
+  Concession (senior citizen (age >= 70))      -840.00
+  ====================================================
+  PAYABLE                                      3360.00
+  Classification: A - Economy
+
+Summary: valid = 3  invalid = 0
+
+=== TEST CASE 3: Batch 3 - Validation failures and one control ===
+----------------------------------------------------------------------
+
+--- P106 Bad Days (40 yrs) ---
+  INVALID RECORD - billing skipped
+    ! days must be between 1 and 60
+
+--- P107 Bad Room (40 yrs) ---
+  INVALID RECORD - billing skipped
+    ! unknown room type: Deluxe
+
+--- P108 Bad Age (200 yrs) ---
+  INVALID RECORD - billing skipped
+    ! age must be between 1 and 120
+
+--- P109 Bad Test (35 yrs) ---
+  INVALID RECORD - billing skipped
+    ! unknown test: CT Scan
+
+--- P110 Valid Senior (62 yrs) ---
+  Consultation (General)                        500.00
+  Room rent (General x 2 day(s))               3000.00
+  Procedure (None)                                0.00
+  Tests: Blood Test                             350.00
+  ----------------------------------------------------
+  Subtotal                                     3850.00
+  Concession (senior citizen (age >= 60))      -385.00
+  ====================================================
+  PAYABLE                                      3465.00
+  Classification: A - Economy
+
+Summary: valid = 1  invalid = 4
+
+PATTERN - cross rows:
+  + . + . 
+  . + . + 
+  + . + . 
+  . + . + 
+End of hospital billing report.

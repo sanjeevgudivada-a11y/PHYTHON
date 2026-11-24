@@ -1,0 +1,91 @@
+============================================================================
+=               RETAIL BILLING WITH MULTIPLE DISCOUNT RULES                =
+============================================================================
+Discount on subtotal: >=20000 20% | >=10000 15% | >=5000 10%
+Maximum concession on any bill: Rs 3000
+Tax after proportional discount: Grocery 0% | Electronics 18%
+                                Apparel 5% | Stationery 12%
+
+=== TEST CASE 1: Cart 1 - Mixed basket crossing the 10% threshold ===
+----------------------------------------------------------------------------
+
+INVOICE INV-101  -  Cart 1 - Mixed basket crossing the 10% threshold
+============================================================================
+  Item            Category        Qty     Rate     Amount
+  -------------------------------------------------------
+  Rice 5kg        Grocery           2   450.00     900.00
+  USB Cable       Electronics       1   350.00     350.00
+  T-Shirt         Apparel           3   600.00    1800.00
+  Earphones       Electronics       1  1200.00    1200.00
+  Pen Set         Stationery        2   150.00     300.00
+  Jacket          Apparel           1  1800.00    1800.00
+  -------------------------------------------------------
+  Subtotal                                           6350.00
+  Discount (10% threshold)                           -635.00
+  Net taxable value                                  5715.00
+  -------------------------------------------------------
+  Tax on Grocery                                        0.00
+  Tax on Electronics                                  251.10
+  Tax on Apparel                                      162.00
+  Tax on Stationery                                    32.40
+  ============================================================================
+  GRAND TOTAL                                        6160.50
+============================================================================
+
+=== TEST CASE 2: Cart 2 - Large basket where the cap limits the concession ===
+----------------------------------------------------------------------------
+
+INVOICE INV-102  -  Cart 2 - Large basket where the cap limits the concession
+============================================================================
+  Item            Category        Qty     Rate     Amount
+  -------------------------------------------------------
+  T-Shirt         Apparel          10   600.00    6000.00
+  Earphones       Electronics      15  1200.00   18000.00
+  -------------------------------------------------------
+  Subtotal                                          24000.00
+  Discount capped at max 3000 (rule gave 4800)      -3000.00
+  Net taxable value                                 21000.00
+  -------------------------------------------------------
+  Tax on Grocery                                        0.00
+  Tax on Electronics                                 2835.00
+  Tax on Apparel                                      262.50
+  Tax on Stationery                                     0.00
+  ============================================================================
+  GRAND TOTAL                                       24097.50
+============================================================================
+
+=== TEST CASE 3: Cart 3 - Invalid lines and a below-threshold basket ===
+----------------------------------------------------------------------------
+  ERROR: unknown product 'Milk Pack' - line skipped
+  ERROR: quantity -1 for 'Soap Bar' must be positive - line skipped
+
+INVOICE INV-103  -  Cart 3 - Invalid lines and a below-threshold basket
+============================================================================
+  Item            Category        Qty     Rate     Amount
+  -------------------------------------------------------
+  Rice 5kg        Grocery           1   450.00     450.00
+  Pen Set         Stationery        3   150.00     450.00
+  -------------------------------------------------------
+  Subtotal                                            900.00
+  Discount (0% threshold)                               0.00
+  Net taxable value                                   900.00
+  -------------------------------------------------------
+  Tax on Grocery                                        0.00
+  Tax on Electronics                                    0.00
+  Tax on Apparel                                        0.00
+  Tax on Stationery                                    54.00
+  ============================================================================
+  GRAND TOTAL                                         954.00
+============================================================================
+  Lines skipped: 2
+
+PATTERN - barcode:
+   # #  # # #  # # #  # # #  # # # 
+  #  # # #  # # #  # # #  # # #  # 
+  # # #  # # #  # # #  # # #  # # #
+   #  # # #  # # #  # # #  # # #  #
+   # # #  # # #  # # #  # # #  # # 
+  # #  # # #  # # #  # # #  # # #  
+    # # #  # # #  # # #  # # #  # #
+   # #  # # #  # # #  # # #  # # # 
+End of retail billing report.

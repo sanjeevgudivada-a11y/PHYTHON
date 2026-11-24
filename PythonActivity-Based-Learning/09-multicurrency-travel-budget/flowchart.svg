@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="175 14 1470 1514" width="1470" height="1514">
+<rect x="175" y="14" width="1470" height="1514" fill="#f8fafc"/>
+<text x="191" y="50" font-family="DejaVu Sans, Verdana, sans-serif" font-size="17" font-weight="bold" fill="#0f172a">Flowchart 9: Multi-Currency Travel Budget Analysis</text>
+<line x1="340.0" y1="118.0" x2="340.0" y2="164.0" stroke="#334155" stroke-width="1.8"/><polygon points="340.0,164.0 334.8,154.5 345.2,154.5" fill="#334155"/>
+<line x1="340.0" y1="228.0" x2="340.0" y2="274.0" stroke="#334155" stroke-width="1.8"/><polygon points="340.0,274.0 334.8,264.5 345.2,264.5" fill="#334155"/>
+<line x1="340.0" y1="322.0" x2="340.0" y2="368.0" stroke="#334155" stroke-width="1.8"/><polygon points="340.0,368.0 334.8,358.5 345.2,358.5" fill="#334155"/>
+<line x1="467.1" y1="427.0" x2="720.0" y2="427.0" stroke="#334155" stroke-width="1.8"/>
+<line x1="720.0" y1="427.0" x2="720.0" y2="469.0" stroke="#334155" stroke-width="1.8"/><polygon points="720.0,469.0 714.8,459.5 725.2,459.5" fill="#334155"/>
+<line x1="720.0" y1="533.0" x2="720.0" y2="579.0" stroke="#334155" stroke-width="1.8"/><polygon points="720.0,579.0 714.8,569.5 725.2,569.5" fill="#334155"/>
+<line x1="851.0" y1="629.5" x2="1100.0" y2="629.5" stroke="#334155" stroke-width="1.8"/>
+<line x1="1100.0" y1="629.5" x2="1100.0" y2="671.5" stroke="#334155" stroke-width="1.8"/><polygon points="1100.0,671.5 1094.8,662.0 1105.2,662.0" fill="#334155"/>
+<line x1="1100.0" y1="735.5" x2="1100.0" y2="781.5" stroke="#334155" stroke-width="1.8"/><polygon points="1100.0,781.5 1094.8,772.0 1105.2,772.0" fill="#334155"/>
+<line x1="1100.0" y1="845.5" x2="1100.0" y2="891.5" stroke="#334155" stroke-width="1.8"/><polygon points="1100.0,891.5 1094.8,882.0 1105.2,882.0" fill="#334155"/>
+<line x1="1100.0" y1="992.5" x2="1100.0" y2="1022.5" stroke="#334155" stroke-width="1.8"/><polygon points="1100.0,1022.5 1094.8,1013.0 1105.2,1013.0" fill="#334155"/>
+<line x1="1227.1" y1="942.0" x2="1480.0" y2="942.0" stroke="#334155" stroke-width="1.8"/>
+<line x1="1480.0" y1="942.0" x2="1480.0" y2="984.0" stroke="#334155" stroke-width="1.8"/><polygon points="1480.0,984.0 1474.8,974.5 1485.2,974.5" fill="#334155"/>
+<line x1="1480.0" y1="1048.0" x2="1480.0" y2="1100.5" stroke="#334155" stroke-width="1.8"/>
+<line x1="1480.0" y1="1100.5" x2="1100.0" y2="1100.5" stroke="#334155" stroke-width="1.8"/><polygon points="1100.0,1100.5 1109.5,1095.3 1109.5,1105.7" fill="#334155"/>
+<line x1="1100.0" y1="1086.5" x2="1100.0" y2="1100.5" stroke="#334155" stroke-width="1.8"/>
+<line x1="1100.0" y1="1100.5" x2="1100.0" y2="1146.5" stroke="#334155" stroke-width="1.8"/><polygon points="1100.0,1146.5 1094.8,1137.0 1105.2,1137.0" fill="#334155"/>
+<line x1="1100.0" y1="1194.5" x2="1100.0" y2="1222.5" stroke="#334155" stroke-width="1.8"/><line x1="1100.0" y1="1222.5" x2="910.0" y2="1222.5" stroke="#334155" stroke-width="1.8"/><line x1="910.0" y1="1222.5" x2="910.0" y2="547.0" stroke="#334155" stroke-width="1.8"/><line x1="910.0" y1="547.0" x2="720.0" y2="547.0" stroke="#334155" stroke-width="1.8"/><line x1="720.0" y1="547.0" x2="720.0" y2="579.0" stroke="#334155" stroke-width="1.8"/><polygon points="720.0,579.0 714.8,569.5 725.2,569.5" fill="#334155"/>
+<line x1="720.0" y1="680.0" x2="720.0" y2="1194.5" stroke="#334155" stroke-width="1.8"/>
+<line x1="720.0" y1="1194.5" x2="720.0" y2="1240.5" stroke="#334155" stroke-width="1.8"/><polygon points="720.0,1240.5 714.8,1231.0 725.2,1231.0" fill="#334155"/>
+<line x1="720.0" y1="1304.5" x2="720.0" y2="1332.5" stroke="#334155" stroke-width="1.8"/><line x1="720.0" y1="1332.5" x2="530.0" y2="1332.5" stroke="#334155" stroke-width="1.8"/><line x1="530.0" y1="1332.5" x2="530.0" y2="336.0" stroke="#334155" stroke-width="1.8"/><line x1="530.0" y1="336.0" x2="340.0" y2="336.0" stroke="#334155" stroke-width="1.8"/><line x1="340.0" y1="336.0" x2="340.0" y2="368.0" stroke="#334155" stroke-width="1.8"/><polygon points="340.0,368.0 334.8,358.5 345.2,358.5" fill="#334155"/>
+<line x1="340.0" y1="486.0" x2="340.0" y2="1304.5" stroke="#334155" stroke-width="1.8"/>
+<line x1="340.0" y1="1304.5" x2="340.0" y2="1350.5" stroke="#334155" stroke-width="1.8"/><polygon points="340.0,1350.5 334.8,1341.0 345.2,1341.0" fill="#334155"/>
+<line x1="340.0" y1="1398.5" x2="340.0" y2="1444.5" stroke="#334155" stroke-width="1.8"/><polygon points="340.0,1444.5 334.8,1435.0 345.2,1435.0" fill="#334155"/>
+<text x="481.1" y="418.0" font-family="DejaVu Sans, Verdana, sans-serif" font-size="12.5" fill="#475569">Yes</text>
+<text x="353.0" y="504.0" font-family="DejaVu Sans, Verdana, sans-serif" font-size="12.5" fill="#475569">No</text>
+<text x="865.0" y="620.5" font-family="DejaVu Sans, Verdana, sans-serif" font-size="12.5" fill="#475569">Yes</text>
+<text x="733.0" y="698.0" font-family="DejaVu Sans, Verdana, sans-serif" font-size="12.5" fill="#475569">No</text>
+<text x="1113.0" y="1010.5" font-family="DejaVu Sans, Verdana, sans-serif" font-size="12.5" fill="#475569">Yes</text>
+<text x="1241.1" y="933.0" font-family="DejaVu Sans, Verdana, sans-serif" font-size="12.5" fill="#475569">No</text>
+<rect x="255.0" y="72.0" width="170.0" height="46.0" rx="23.0" fill="#dbeafe" stroke="#2563eb" stroke-width="2"/><text font-family="DejaVu Sans, Verdana, sans-serif" font-size="13" fill="#0f172a" text-anchor="middle"><tspan x="340.0" dy="0" y="99.5">Start</tspan></text>
+<polygon points="241.0,164.0 455.0,164.0 439.0,228.0 225.0,228.0" fill="#dcfce7" stroke="#16a34a" stroke-width="2"/><text font-family="DejaVu Sans, Verdana, sans-serif" font-size="13" fill="#0f172a" text-anchor="middle"><tspan x="340.0" dy="0" y="192.0">Read exchange rates,</tspan><tspan x="340.0" dy="17">itineraries, budgets</tspan></text>
+<rect x="235.0" y="274.0" width="210.0" height="48.0" rx="5" fill="#ffffff" stroke="#334155" stroke-width="2"/><text font-family="DejaVu Sans, Verdana, sans-serif" font-size="13" fill="#0f172a" text-anchor="middle"><tspan x="340.0" dy="0" y="302.5">Print rate table</tspan></text>
+<polygon points="340.0,368.0 467.1,427.0 340.0,486.0 212.9,427.0" fill="#fef9c3" stroke="#b45309" stroke-width="2"/><text font-family="DejaVu Sans, Verdana, sans-serif" font-size="13" fill="#0f172a" text-anchor="middle"><tspan x="340.0" dy="0" y="423.0">t &lt; number of test</tspan><tspan x="340.0" dy="17">cases?</tspan></text>
+<rect x="605.0" y="469.0" width="230.0" height="64.0" rx="5" fill="#ffffff" stroke="#334155" stroke-width="2"/><text font-family="DejaVu Sans, Verdana, sans-serif" font-size="13" fill="#0f172a" text-anchor="middle"><tspan x="720.0" dy="0" y="497.0">Unpack budget, legs;</tspan><tspan x="720.0" dy="17">remaining = budget</tspan></text>
+<polygon points="720.0,579.0 851.1,629.5 720.0,680.0 589.0,629.5" fill="#fef9c3" stroke="#b45309" stroke-width="2"/><text font-family="DejaVu Sans, Verdana, sans-serif" font-size="13" fill="#0f172a" text-anchor="middle"><tspan x="720.0" dy="0" y="634.0">i &lt; number of legs?</tspan></text>
+<rect x="957.4" y="671.5" width="285.3" height="64.0" rx="5" fill="#ffffff" stroke="#334155" stroke-width="2"/><text font-family="DejaVu Sans, Verdana, sans-serif" font-size="13" fill="#0f172a" text-anchor="middle"><tspan x="1100.0" dy="0" y="699.5">Find rate; sum local prices</tspan><tspan x="1100.0" dy="17">for leg</tspan></text>
+<rect x="981.0" y="781.5" width="237.9" height="64.0" rx="5" fill="#ffffff" stroke="#334155" stroke-width="2"/><text font-family="DejaVu Sans, Verdana, sans-serif" font-size="13" fill="#0f172a" text-anchor="middle"><tspan x="1100.0" dy="0" y="809.5">local -&gt; INR; fee 2%;</tspan><tspan x="1100.0" dy="17">country cost</tspan></text>
+<polygon points="1100.0,891.5 1227.1,942.0 1100.0,992.5 972.9,942.0" fill="#fef9c3" stroke="#b45309" stroke-width="2"/><text font-family="DejaVu Sans, Verdana, sans-serif" font-size="13" fill="#0f172a" text-anchor="middle"><tspan x="1100.0" dy="0" y="946.5">cost &lt;= remaining?</tspan></text>
+<rect x="961.3" y="1022.5" width="277.4" height="64.0" rx="5" fill="#ffffff" stroke="#334155" stroke-width="2"/><text font-family="DejaVu Sans, Verdana, sans-serif" font-size="13" fill="#0f172a" text-anchor="middle"><tspan x="1100.0" dy="0" y="1050.5">remaining -= cost; covered</tspan><tspan x="1100.0" dy="17">+= 1; print COVERED</tspan></text>
+<rect x="1353.2" y="984.0" width="253.7" height="64.0" rx="5" fill="#ffffff" stroke="#334155" stroke-width="2"/><text font-family="DejaVu Sans, Verdana, sans-serif" font-size="13" fill="#0f172a" text-anchor="middle"><tspan x="1480.0" dy="0" y="1012.0">Print shortfalls; print</tspan><tspan x="1480.0" dy="17">SKIPPED</tspan></text>
+<rect x="995.0" y="1146.5" width="210.0" height="48.0" rx="5" fill="#ffffff" stroke="#334155" stroke-width="2"/><text font-family="DejaVu Sans, Verdana, sans-serif" font-size="13" fill="#0f172a" text-anchor="middle"><tspan x="1100.0" dy="0" y="1175.0">i = i + 1</tspan></text>
+<rect x="577.4" y="1240.5" width="285.3" height="64.0" rx="5" fill="#ffffff" stroke="#334155" stroke-width="2"/><text font-family="DejaVu Sans, Verdana, sans-serif" font-size="13" fill="#0f172a" text-anchor="middle"><tspan x="720.0" dy="0" y="1268.5">Print trip summary; t = t +</tspan><tspan x="720.0" dy="17">1</tspan></text>
+<rect x="221.1" y="1350.5" width="237.9" height="48.0" rx="5" fill="#ffffff" stroke="#334155" stroke-width="2"/><text font-family="DejaVu Sans, Verdana, sans-serif" font-size="13" fill="#0f172a" text-anchor="middle"><tspan x="340.0" dy="0" y="1379.0">Print diamond pattern</tspan></text>
+<rect x="255.0" y="1444.5" width="170.0" height="46.0" rx="23.0" fill="#dbeafe" stroke="#2563eb" stroke-width="2"/><text font-family="DejaVu Sans, Verdana, sans-serif" font-size="13" fill="#0f172a" text-anchor="middle"><tspan x="340.0" dy="0" y="1472.0">End</tspan></text>
+</svg>

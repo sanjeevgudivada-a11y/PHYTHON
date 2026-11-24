@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="163 14 1460 1777" width="1460" height="1777">
+<rect x="163" y="14" width="1460" height="1777" fill="#f8fafc"/>
+<text x="179" y="50" font-family="DejaVu Sans, Verdana, sans-serif" font-size="17" font-weight="bold" fill="#0f172a">Flowchart 4: Employee Payroll and Deduction Analysis</text>
+<line x1="340.0" y1="118.0" x2="340.0" y2="164.0" stroke="#334155" stroke-width="1.8"/><polygon points="340.0,164.0 334.8,154.5 345.2,154.5" fill="#334155"/>
+<line x1="340.0" y1="245.0" x2="340.0" y2="291.0" stroke="#334155" stroke-width="1.8"/><polygon points="340.0,291.0 334.8,281.5 345.2,281.5" fill="#334155"/>
+<line x1="340.0" y1="355.0" x2="340.0" y2="401.0" stroke="#334155" stroke-width="1.8"/><polygon points="340.0,401.0 334.8,391.5 345.2,391.5" fill="#334155"/>
+<line x1="460.0" y1="460.0" x2="720.0" y2="460.0" stroke="#334155" stroke-width="1.8"/>
+<line x1="720.0" y1="460.0" x2="720.0" y2="502.0" stroke="#334155" stroke-width="1.8"/><polygon points="720.0,502.0 714.8,492.5 725.2,492.5" fill="#334155"/>
+<line x1="720.0" y1="583.0" x2="720.0" y2="629.0" stroke="#334155" stroke-width="1.8"/><polygon points="720.0,629.0 714.8,619.5 725.2,619.5" fill="#334155"/>
+<line x1="720.0" y1="747.0" x2="720.0" y2="777.0" stroke="#334155" stroke-width="1.8"/><polygon points="720.0,777.0 714.8,767.5 725.2,767.5" fill="#334155"/>
+<line x1="855.0" y1="688.0" x2="1100.0" y2="688.0" stroke="#334155" stroke-width="1.8"/>
+<line x1="1100.0" y1="688.0" x2="1100.0" y2="730.0" stroke="#334155" stroke-width="1.8"/><polygon points="1100.0,730.0 1094.8,720.5 1105.2,720.5" fill="#334155"/>
+<line x1="1100.0" y1="778.0" x2="1100.0" y2="839.0" stroke="#334155" stroke-width="1.8"/>
+<line x1="1100.0" y1="839.0" x2="720.0" y2="839.0" stroke="#334155" stroke-width="1.8"/><polygon points="720.0,839.0 729.5,833.8 729.5,844.2" fill="#334155"/>
+<line x1="720.0" y1="825.0" x2="720.0" y2="839.0" stroke="#334155" stroke-width="1.8"/>
+<line x1="720.0" y1="839.0" x2="720.0" y2="885.0" stroke="#334155" stroke-width="1.8"/><polygon points="720.0,885.0 714.8,875.5 725.2,875.5" fill="#334155"/>
+<line x1="720.0" y1="949.0" x2="720.0" y2="995.0" stroke="#334155" stroke-width="1.8"/><polygon points="720.0,995.0 714.8,985.5 725.2,985.5" fill="#334155"/>
+<line x1="720.0" y1="1113.0" x2="720.0" y2="1143.0" stroke="#334155" stroke-width="1.8"/><polygon points="720.0,1143.0 714.8,1133.5 725.2,1133.5" fill="#334155"/>
+<line x1="862.9" y1="1054.0" x2="1480.0" y2="1054.0" stroke="#334155" stroke-width="1.8"/>
+<line x1="1480.0" y1="1054.0" x2="1480.0" y2="1096.0" stroke="#334155" stroke-width="1.8"/><polygon points="1480.0,1096.0 1474.8,1086.5 1485.2,1086.5" fill="#334155"/>
+<line x1="1480.0" y1="1144.0" x2="1480.0" y2="1221.0" stroke="#334155" stroke-width="1.8"/>
+<line x1="1480.0" y1="1221.0" x2="720.0" y2="1221.0" stroke="#334155" stroke-width="1.8"/><polygon points="720.0,1221.0 729.5,1215.8 729.5,1226.2" fill="#334155"/>
+<line x1="720.0" y1="1207.0" x2="720.0" y2="1221.0" stroke="#334155" stroke-width="1.8"/>
+<line x1="720.0" y1="1221.0" x2="720.0" y2="1267.0" stroke="#334155" stroke-width="1.8"/><polygon points="720.0,1267.0 714.8,1257.5 725.2,1257.5" fill="#334155"/>
+<line x1="720.0" y1="1331.0" x2="720.0" y2="1377.0" stroke="#334155" stroke-width="1.8"/><polygon points="720.0,1377.0 714.8,1367.5 725.2,1367.5" fill="#334155"/>
+<line x1="720.0" y1="1441.0" x2="720.0" y2="1469.0" stroke="#334155" stroke-width="1.8"/><line x1="720.0" y1="1469.0" x2="530.0" y2="1469.0" stroke="#334155" stroke-width="1.8"/><line x1="530.0" y1="1469.0" x2="530.0" y2="369.0" stroke="#334155" stroke-width="1.8"/><line x1="530.0" y1="369.0" x2="340.0" y2="369.0" stroke="#334155" stroke-width="1.8"/><line x1="340.0" y1="369.0" x2="340.0" y2="401.0" stroke="#334155" stroke-width="1.8"/><polygon points="340.0,401.0 334.8,391.5 345.2,391.5" fill="#334155"/>
+<line x1="340.0" y1="519.0" x2="340.0" y2="1441.0" stroke="#334155" stroke-width="1.8"/>
+<line x1="340.0" y1="1441.0" x2="340.0" y2="1487.0" stroke="#334155" stroke-width="1.8"/><polygon points="340.0,1487.0 334.8,1477.5 345.2,1477.5" fill="#334155"/>
+<line x1="340.0" y1="1551.0" x2="340.0" y2="1597.0" stroke="#334155" stroke-width="1.8"/><polygon points="340.0,1597.0 334.8,1587.5 345.2,1587.5" fill="#334155"/>
+<line x1="340.0" y1="1661.0" x2="340.0" y2="1707.0" stroke="#334155" stroke-width="1.8"/><polygon points="340.0,1707.0 334.8,1697.5 345.2,1697.5" fill="#334155"/>
+<text x="474.0" y="451.0" font-family="DejaVu Sans, Verdana, sans-serif" font-size="12.5" fill="#475569">Yes</text>
+<text x="353.0" y="537.0" font-family="DejaVu Sans, Verdana, sans-serif" font-size="12.5" fill="#475569">No</text>
+<text x="733.0" y="765.0" font-family="DejaVu Sans, Verdana, sans-serif" font-size="12.5" fill="#475569">Yes</text>
+<text x="869.0" y="679.0" font-family="DejaVu Sans, Verdana, sans-serif" font-size="12.5" fill="#475569">No</text>
+<text x="733.0" y="1131.0" font-family="DejaVu Sans, Verdana, sans-serif" font-size="12.5" fill="#475569">Yes</text>
+<text x="876.9" y="1045.0" font-family="DejaVu Sans, Verdana, sans-serif" font-size="12.5" fill="#475569">No</text>
+<rect x="255.0" y="72.0" width="170.0" height="46.0" rx="23.0" fill="#dbeafe" stroke="#2563eb" stroke-width="2"/><text font-family="DejaVu Sans, Verdana, sans-serif" font-size="13" fill="#0f172a" text-anchor="middle"><tspan x="340.0" dy="0" y="99.5">Start</tspan></text>
+<polygon points="217.3,164.0 478.7,164.0 462.7,245.0 201.3,245.0" fill="#dcfce7" stroke="#16a34a" stroke-width="2"/><text font-family="DejaVu Sans, Verdana, sans-serif" font-size="13" fill="#0f172a" text-anchor="middle"><tspan x="340.0" dy="0" y="192.0">Read employee records: id,</tspan><tspan x="340.0" dy="17">name, basic, OT hours,</tspan><tspan x="340.0" dy="17">incentive</tspan></text>
+<rect x="213.1" y="291.0" width="253.7" height="64.0" rx="5" fill="#ffffff" stroke="#334155" stroke-width="2"/><text font-family="DejaVu Sans, Verdana, sans-serif" font-size="13" fill="#0f172a" text-anchor="middle"><tspan x="340.0" dy="0" y="319.0">Set totals of gross,</tspan><tspan x="340.0" dy="17">deductions and net to 0</tspan></text>
+<polygon points="340.0,401.0 460.0,460.0 340.0,519.0 220.0,460.0" fill="#fef9c3" stroke="#b45309" stroke-width="2"/><text font-family="DejaVu Sans, Verdana, sans-serif" font-size="13" fill="#0f172a" text-anchor="middle"><tspan x="340.0" dy="0" y="456.0">i &lt; number of</tspan><tspan x="340.0" dy="17">employees?</tspan></text>
+<rect x="585.2" y="502.0" width="269.5" height="81.0" rx="5" fill="#ffffff" stroke="#334155" stroke-width="2"/><text font-family="DejaVu Sans, Verdana, sans-serif" font-size="13" fill="#0f172a" text-anchor="middle"><tspan x="720.0" dy="0" y="530.0">Gross = basic + HRA 40% +</tspan><tspan x="720.0" dy="17">DA 10% + TA + OT +</tspan><tspan x="720.0" dy="17">incentive</tspan></text>
+<polygon points="720.0,629.0 855.0,688.0 720.0,747.0 585.0,688.0" fill="#fef9c3" stroke="#b45309" stroke-width="2"/><text font-family="DejaVu Sans, Verdana, sans-serif" font-size="13" fill="#0f172a" text-anchor="middle"><tspan x="720.0" dy="0" y="684.0">12% of basic exceeds</tspan><tspan x="720.0" dy="17">1800?</tspan></text>
+<rect x="615.0" y="777.0" width="210.0" height="48.0" rx="5" fill="#ffffff" stroke="#334155" stroke-width="2"/><text font-family="DejaVu Sans, Verdana, sans-serif" font-size="13" fill="#0f172a" text-anchor="middle"><tspan x="720.0" dy="0" y="805.5">PF = 1800 (cap)</tspan></text>
+<rect x="995.0" y="730.0" width="210.0" height="48.0" rx="5" fill="#ffffff" stroke="#334155" stroke-width="2"/><text font-family="DejaVu Sans, Verdana, sans-serif" font-size="13" fill="#0f172a" text-anchor="middle"><tspan x="1100.0" dy="0" y="758.5">PF = 12% of basic</tspan></text>
+<rect x="577.4" y="885.0" width="285.3" height="64.0" rx="5" fill="#ffffff" stroke="#334155" stroke-width="2"/><text font-family="DejaVu Sans, Verdana, sans-serif" font-size="13" fill="#0f172a" text-anchor="middle"><tspan x="720.0" dy="0" y="913.0">Professional tax from gross</tspan><tspan x="720.0" dy="17">slab table</tspan></text>
+<polygon points="720.0,995.0 862.9,1054.0 720.0,1113.0 577.1,1054.0" fill="#fef9c3" stroke="#b45309" stroke-width="2"/><text font-family="DejaVu Sans, Verdana, sans-serif" font-size="13" fill="#0f172a" text-anchor="middle"><tspan x="720.0" dy="0" y="1050.0">taxable = gross - PF -</tspan><tspan x="720.0" dy="17">PT greater than 0?</tspan></text>
+<rect x="577.4" y="1143.0" width="285.3" height="64.0" rx="5" fill="#ffffff" stroke="#334155" stroke-width="2"/><text font-family="DejaVu Sans, Verdana, sans-serif" font-size="13" fill="#0f172a" text-anchor="middle"><tspan x="720.0" dy="0" y="1171.0">Walk income-tax slabs slice</tspan><tspan x="720.0" dy="17">by slice</tspan></text>
+<rect x="1375.0" y="1096.0" width="210.0" height="48.0" rx="5" fill="#ffffff" stroke="#334155" stroke-width="2"/><text font-family="DejaVu Sans, Verdana, sans-serif" font-size="13" fill="#0f172a" text-anchor="middle"><tspan x="1480.0" dy="0" y="1124.5">Income tax = 0</tspan></text>
+<rect x="577.4" y="1267.0" width="285.3" height="64.0" rx="5" fill="#ffffff" stroke="#334155" stroke-width="2"/><text font-family="DejaVu Sans, Verdana, sans-serif" font-size="13" fill="#0f172a" text-anchor="middle"><tspan x="720.0" dy="0" y="1295.0">Net = gross - PF - PT -</tspan><tspan x="720.0" dy="17">tax; print salary statement</tspan></text>
+<rect x="581.3" y="1377.0" width="277.4" height="64.0" rx="5" fill="#ffffff" stroke="#334155" stroke-width="2"/><text font-family="DejaVu Sans, Verdana, sans-serif" font-size="13" fill="#0f172a" text-anchor="middle"><tspan x="720.0" dy="0" y="1405.0">Add to batch totals; i = i</tspan><tspan x="720.0" dy="17">+ 1</tspan></text>
+<polygon points="233.1,1487.0 462.9,1487.0 446.9,1551.0 217.1,1551.0" fill="#dcfce7" stroke="#16a34a" stroke-width="2"/><text font-family="DejaVu Sans, Verdana, sans-serif" font-size="13" fill="#0f172a" text-anchor="middle"><tspan x="340.0" dy="0" y="1515.0">Print batch totals and</tspan><tspan x="340.0" dy="17">average net</tspan></text>
+<rect x="221.1" y="1597.0" width="237.9" height="64.0" rx="5" fill="#ffffff" stroke="#334155" stroke-width="2"/><text font-family="DejaVu Sans, Verdana, sans-serif" font-size="13" fill="#0f172a" text-anchor="middle"><tspan x="340.0" dy="0" y="1625.0">Print closing diamond</tspan><tspan x="340.0" dy="17">pattern</tspan></text>
+<rect x="255.0" y="1707.0" width="170.0" height="46.0" rx="23.0" fill="#dbeafe" stroke="#2563eb" stroke-width="2"/><text font-family="DejaVu Sans, Verdana, sans-serif" font-size="13" fill="#0f172a" text-anchor="middle"><tspan x="340.0" dy="0" y="1734.5">End</tspan></text>
+</svg>

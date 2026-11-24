@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="159 14 2610 2314" width="2610" height="2314">
+<rect x="159" y="14" width="2610" height="2314" fill="#f8fafc"/>
+<text x="175" y="50" font-family="DejaVu Sans, Verdana, sans-serif" font-size="17" font-weight="bold" fill="#0f172a">Flowchart 6: Railway Fare and Reservation Calculator</text>
+<line x1="340.0" y1="118.0" x2="340.0" y2="164.0" stroke="#334155" stroke-width="1.8"/><polygon points="340.0,164.0 334.8,154.5 345.2,154.5" fill="#334155"/>
+<line x1="340.0" y1="245.0" x2="340.0" y2="291.0" stroke="#334155" stroke-width="1.8"/><polygon points="340.0,291.0 334.8,281.5 345.2,281.5" fill="#334155"/>
+<line x1="340.0" y1="355.0" x2="340.0" y2="401.0" stroke="#334155" stroke-width="1.8"/><polygon points="340.0,401.0 334.8,391.5 345.2,391.5" fill="#334155"/>
+<line x1="460.0" y1="460.0" x2="720.0" y2="460.0" stroke="#334155" stroke-width="1.8"/>
+<line x1="720.0" y1="460.0" x2="720.0" y2="502.0" stroke="#334155" stroke-width="1.8"/><polygon points="720.0,502.0 714.8,492.5 725.2,492.5" fill="#334155"/>
+<line x1="720.0" y1="566.0" x2="720.0" y2="612.0" stroke="#334155" stroke-width="1.8"/><polygon points="720.0,612.0 714.8,602.5 725.2,602.5" fill="#334155"/>
+<line x1="720.0" y1="676.0" x2="720.0" y2="722.0" stroke="#334155" stroke-width="1.8"/><polygon points="720.0,722.0 714.8,712.5 725.2,712.5" fill="#334155"/>
+<line x1="720.0" y1="786.0" x2="720.0" y2="832.0" stroke="#334155" stroke-width="1.8"/><polygon points="720.0,832.0 714.8,822.5 725.2,822.5" fill="#334155"/>
+<line x1="720.0" y1="933.0" x2="720.0" y2="963.0" stroke="#334155" stroke-width="1.8"/><polygon points="720.0,963.0 714.8,953.5 725.2,953.5" fill="#334155"/>
+<line x1="840.0" y1="882.5" x2="1100.0" y2="882.5" stroke="#334155" stroke-width="1.8"/>
+<line x1="1100.0" y1="882.5" x2="1100.0" y2="924.5" stroke="#334155" stroke-width="1.8"/><polygon points="1100.0,924.5 1094.8,915.0 1105.2,915.0" fill="#334155"/>
+<line x1="1100.0" y1="1025.5" x2="1100.0" y2="1055.5" stroke="#334155" stroke-width="1.8"/><polygon points="1100.0,1055.5 1094.8,1046.0 1105.2,1046.0" fill="#334155"/>
+<line x1="1246.8" y1="975.0" x2="1480.0" y2="975.0" stroke="#334155" stroke-width="1.8"/>
+<line x1="1480.0" y1="975.0" x2="1480.0" y2="1017.0" stroke="#334155" stroke-width="1.8"/><polygon points="1480.0,1017.0 1474.8,1007.5 1485.2,1007.5" fill="#334155"/>
+<line x1="1480.0" y1="1065.0" x2="1480.0" y2="1133.5" stroke="#334155" stroke-width="1.8"/>
+<line x1="1480.0" y1="1133.5" x2="1100.0" y2="1133.5" stroke="#334155" stroke-width="1.8"/><polygon points="1100.0,1133.5 1109.5,1128.3 1109.5,1138.7" fill="#334155"/>
+<line x1="1100.0" y1="1119.5" x2="1100.0" y2="1133.5" stroke="#334155" stroke-width="1.8"/>
+<line x1="1100.0" y1="1133.5" x2="1100.0" y2="1147.5" stroke="#334155" stroke-width="1.8"/>
+<line x1="1100.0" y1="1147.5" x2="720.0" y2="1147.5" stroke="#334155" stroke-width="1.8"/><polygon points="720.0,1147.5 729.5,1142.3 729.5,1152.7" fill="#334155"/>
+<line x1="720.0" y1="1027.0" x2="720.0" y2="1147.5" stroke="#334155" stroke-width="1.8"/>
+<line x1="720.0" y1="1147.5" x2="720.0" y2="1193.5" stroke="#334155" stroke-width="1.8"/><polygon points="720.0,1193.5 714.8,1184.0 725.2,1184.0" fill="#334155"/>
+<line x1="720.0" y1="1274.5" x2="720.0" y2="1320.5" stroke="#334155" stroke-width="1.8"/><polygon points="720.0,1320.5 714.8,1311.0 725.2,1311.0" fill="#334155"/>
+<line x1="720.0" y1="1421.5" x2="720.0" y2="1451.5" stroke="#334155" stroke-width="1.8"/><polygon points="720.0,1451.5 714.8,1442.0 725.2,1442.0" fill="#334155"/>
+<line x1="720.0" y1="1569.5" x2="720.0" y2="1599.5" stroke="#334155" stroke-width="1.8"/><polygon points="720.0,1599.5 714.8,1590.0 725.2,1590.0" fill="#334155"/>
+<line x1="862.9" y1="1510.5" x2="1860.0" y2="1510.5" stroke="#334155" stroke-width="1.8"/>
+<line x1="1860.0" y1="1510.5" x2="1860.0" y2="1552.5" stroke="#334155" stroke-width="1.8"/><polygon points="1860.0,1552.5 1854.8,1543.0 1865.2,1543.0" fill="#334155"/>
+<line x1="1860.0" y1="1653.5" x2="1860.0" y2="1683.5" stroke="#334155" stroke-width="1.8"/><polygon points="1860.0,1683.5 1854.8,1674.0 1865.2,1674.0" fill="#334155"/>
+<line x1="1980.0" y1="1603.0" x2="2240.0" y2="1603.0" stroke="#334155" stroke-width="1.8"/>
+<line x1="2240.0" y1="1603.0" x2="2240.0" y2="1645.0" stroke="#334155" stroke-width="1.8"/><polygon points="2240.0,1645.0 2234.8,1635.5 2245.2,1635.5" fill="#334155"/>
+<line x1="2240.0" y1="1693.0" x2="2240.0" y2="1745.5" stroke="#334155" stroke-width="1.8"/>
+<line x1="2240.0" y1="1745.5" x2="1860.0" y2="1745.5" stroke="#334155" stroke-width="1.8"/><polygon points="1860.0,1745.5 1869.5,1740.3 1869.5,1750.7" fill="#334155"/>
+<line x1="1860.0" y1="1731.5" x2="1860.0" y2="1745.5" stroke="#334155" stroke-width="1.8"/>
+<line x1="1860.0" y1="1745.5" x2="1860.0" y2="1759.5" stroke="#334155" stroke-width="1.8"/>
+<line x1="1860.0" y1="1759.5" x2="720.0" y2="1759.5" stroke="#334155" stroke-width="1.8"/><polygon points="720.0,1759.5 729.5,1754.3 729.5,1764.7" fill="#334155"/>
+<line x1="720.0" y1="1663.5" x2="720.0" y2="1759.5" stroke="#334155" stroke-width="1.8"/>
+<line x1="720.0" y1="1759.5" x2="720.0" y2="1805.5" stroke="#334155" stroke-width="1.8"/><polygon points="720.0,1805.5 714.8,1796.0 725.2,1796.0" fill="#334155"/>
+<line x1="851.0" y1="1371.0" x2="2620.0" y2="1371.0" stroke="#334155" stroke-width="1.8"/>
+<line x1="2620.0" y1="1371.0" x2="2620.0" y2="1413.0" stroke="#334155" stroke-width="1.8"/><polygon points="2620.0,1413.0 2614.8,1403.5 2625.2,1403.5" fill="#334155"/>
+<line x1="2620.0" y1="1477.0" x2="2620.0" y2="1883.5" stroke="#334155" stroke-width="1.8"/>
+<line x1="2620.0" y1="1883.5" x2="720.0" y2="1883.5" stroke="#334155" stroke-width="1.8"/><polygon points="720.0,1883.5 729.5,1878.3 729.5,1888.7" fill="#334155"/>
+<line x1="720.0" y1="1869.5" x2="720.0" y2="1883.5" stroke="#334155" stroke-width="1.8"/>
+<line x1="720.0" y1="1883.5" x2="720.0" y2="1929.5" stroke="#334155" stroke-width="1.8"/><polygon points="720.0,1929.5 714.8,1920.0 725.2,1920.0" fill="#334155"/>
+<line x1="720.0" y1="1993.5" x2="720.0" y2="2021.5" stroke="#334155" stroke-width="1.8"/><line x1="720.0" y1="2021.5" x2="530.0" y2="2021.5" stroke="#334155" stroke-width="1.8"/><line x1="530.0" y1="2021.5" x2="530.0" y2="369.0" stroke="#334155" stroke-width="1.8"/><line x1="530.0" y1="369.0" x2="340.0" y2="369.0" stroke="#334155" stroke-width="1.8"/><line x1="340.0" y1="369.0" x2="340.0" y2="401.0" stroke="#334155" stroke-width="1.8"/><polygon points="340.0,401.0 334.8,391.5 345.2,391.5" fill="#334155"/>
+<line x1="340.0" y1="519.0" x2="340.0" y2="1993.5" stroke="#334155" stroke-width="1.8"/>
+<line x1="340.0" y1="1993.5" x2="340.0" y2="2039.5" stroke="#334155" stroke-width="1.8"/><polygon points="340.0,2039.5 334.8,2030.0 345.2,2030.0" fill="#334155"/>
+<line x1="340.0" y1="2103.5" x2="340.0" y2="2149.5" stroke="#334155" stroke-width="1.8"/><polygon points="340.0,2149.5 334.8,2140.0 345.2,2140.0" fill="#334155"/>
+<line x1="340.0" y1="2197.5" x2="340.0" y2="2243.5" stroke="#334155" stroke-width="1.8"/><polygon points="340.0,2243.5 334.8,2234.0 345.2,2234.0" fill="#334155"/>
+<text x="474.0" y="451.0" font-family="DejaVu Sans, Verdana, sans-serif" font-size="12.5" fill="#475569">Yes</text>
+<text x="353.0" y="537.0" font-family="DejaVu Sans, Verdana, sans-serif" font-size="12.5" fill="#475569">No</text>
+<text x="733.0" y="951.0" font-family="DejaVu Sans, Verdana, sans-serif" font-size="12.5" fill="#475569">Yes</text>
+<text x="854.0" y="873.5" font-family="DejaVu Sans, Verdana, sans-serif" font-size="12.5" fill="#475569">No</text>
+<text x="1113.0" y="1043.5" font-family="DejaVu Sans, Verdana, sans-serif" font-size="12.5" fill="#475569">Yes</text>
+<text x="1260.8" y="966.0" font-family="DejaVu Sans, Verdana, sans-serif" font-size="12.5" fill="#475569">No</text>
+<text x="733.0" y="1439.5" font-family="DejaVu Sans, Verdana, sans-serif" font-size="12.5" fill="#475569">Yes</text>
+<text x="733.0" y="1587.5" font-family="DejaVu Sans, Verdana, sans-serif" font-size="12.5" fill="#475569">Yes</text>
+<text x="876.9" y="1501.5" font-family="DejaVu Sans, Verdana, sans-serif" font-size="12.5" fill="#475569">No</text>
+<text x="1873.0" y="1671.5" font-family="DejaVu Sans, Verdana, sans-serif" font-size="12.5" fill="#475569">Yes</text>
+<text x="1994.0" y="1594.0" font-family="DejaVu Sans, Verdana, sans-serif" font-size="12.5" fill="#475569">No</text>
+<text x="865.0" y="1362.0" font-family="DejaVu Sans, Verdana, sans-serif" font-size="12.5" fill="#475569">No</text>
+<rect x="255.0" y="72.0" width="170.0" height="46.0" rx="23.0" fill="#dbeafe" stroke="#2563eb" stroke-width="2"/><text font-family="DejaVu Sans, Verdana, sans-serif" font-size="13" fill="#0f172a" text-anchor="middle"><tspan x="340.0" dy="0" y="99.5">Start</tspan></text>
+<polygon points="213.3,164.0 482.6,164.0 466.6,245.0 197.3,245.0" fill="#dcfce7" stroke="#16a34a" stroke-width="2"/><text font-family="DejaVu Sans, Verdana, sans-serif" font-size="13" fill="#0f172a" text-anchor="middle"><tspan x="340.0" dy="0" y="192.0">Read passengers: name, age,</tspan><tspan x="340.0" dy="17">distance, class, status,</tspan><tspan x="340.0" dy="17">hours</tspan></text>
+<rect x="205.2" y="291.0" width="269.5" height="64.0" rx="5" fill="#ffffff" stroke="#334155" stroke-width="2"/><text font-family="DejaVu Sans, Verdana, sans-serif" font-size="13" fill="#0f172a" text-anchor="middle"><tspan x="340.0" dy="0" y="319.0">Set collections = 0,</tspan><tspan x="340.0" dy="17">refunds = 0, counters = 0</tspan></text>
+<polygon points="340.0,401.0 460.0,460.0 340.0,519.0 220.0,460.0" fill="#fef9c3" stroke="#b45309" stroke-width="2"/><text font-family="DejaVu Sans, Verdana, sans-serif" font-size="13" fill="#0f172a" text-anchor="middle"><tspan x="340.0" dy="0" y="456.0">i &lt; number of</tspan><tspan x="340.0" dy="17">passengers?</tspan></text>
+<rect x="585.2" y="502.0" width="269.5" height="64.0" rx="5" fill="#ffffff" stroke="#334155" stroke-width="2"/><text font-family="DejaVu Sans, Verdana, sans-serif" font-size="13" fill="#0f172a" text-anchor="middle"><tspan x="720.0" dy="0" y="530.0">Unpack record; find class</tspan><tspan x="720.0" dy="17">label, multiplier and fee</tspan></text>
+<rect x="577.4" y="612.0" width="285.3" height="64.0" rx="5" fill="#ffffff" stroke="#334155" stroke-width="2"/><text font-family="DejaVu Sans, Verdana, sans-serif" font-size="13" fill="#0f172a" text-anchor="middle"><tspan x="720.0" dy="0" y="640.0">Base fare = distance x rate</tspan><tspan x="720.0" dy="17">of first matching slab</tspan></text>
+<rect x="609.0" y="722.0" width="222.1" height="64.0" rx="5" fill="#ffffff" stroke="#334155" stroke-width="2"/><text font-family="DejaVu Sans, Verdana, sans-serif" font-size="13" fill="#0f172a" text-anchor="middle"><tspan x="720.0" dy="0" y="750.0">Class fare = base x</tspan><tspan x="720.0" dy="17">multiplier</tspan></text>
+<polygon points="720.0,832.0 840.0,882.5 720.0,933.0 600.0,882.5" fill="#fef9c3" stroke="#b45309" stroke-width="2"/><text font-family="DejaVu Sans, Verdana, sans-serif" font-size="13" fill="#0f172a" text-anchor="middle"><tspan x="720.0" dy="0" y="887.0">age &lt; 5?</tspan></text>
+<rect x="601.0" y="963.0" width="237.9" height="64.0" rx="5" fill="#ffffff" stroke="#334155" stroke-width="2"/><text font-family="DejaVu Sans, Verdana, sans-serif" font-size="13" fill="#0f172a" text-anchor="middle"><tspan x="720.0" dy="0" y="991.0">Concession = 100% and</tspan><tspan x="720.0" dy="17">reservation fee = 0</tspan></text>
+<polygon points="1100.0,924.5 1246.8,975.0 1100.0,1025.5 953.1,975.0" fill="#fef9c3" stroke="#b45309" stroke-width="2"/><text font-family="DejaVu Sans, Verdana, sans-serif" font-size="13" fill="#0f172a" text-anchor="middle"><tspan x="1100.0" dy="0" y="979.5">age &lt;= 11 or age &gt;= 60?</tspan></text>
+<rect x="965.2" y="1055.5" width="269.5" height="64.0" rx="5" fill="#ffffff" stroke="#334155" stroke-width="2"/><text font-family="DejaVu Sans, Verdana, sans-serif" font-size="13" fill="#0f172a" text-anchor="middle"><tspan x="1100.0" dy="0" y="1083.5">Concession = 50% child or</tspan><tspan x="1100.0" dy="17">40% senior</tspan></text>
+<rect x="1375.0" y="1017.0" width="210.0" height="48.0" rx="5" fill="#ffffff" stroke="#334155" stroke-width="2"/><text font-family="DejaVu Sans, Verdana, sans-serif" font-size="13" fill="#0f172a" text-anchor="middle"><tspan x="1480.0" dy="0" y="1045.5">No age concession</tspan></text>
+<rect x="589.2" y="1193.5" width="261.6" height="81.0" rx="5" fill="#ffffff" stroke="#334155" stroke-width="2"/><text font-family="DejaVu Sans, Verdana, sans-serif" font-size="13" fill="#0f172a" text-anchor="middle"><tspan x="720.0" dy="0" y="1221.5">Ticket value = fare -</tspan><tspan x="720.0" dy="17">concession + reservation</tspan><tspan x="720.0" dy="17">fee</tspan></text>
+<polygon points="720.0,1320.5 851.1,1371.0 720.0,1421.5 589.0,1371.0" fill="#fef9c3" stroke="#b45309" stroke-width="2"/><text font-family="DejaVu Sans, Verdana, sans-serif" font-size="13" fill="#0f172a" text-anchor="middle"><tspan x="720.0" dy="0" y="1375.5">status = CANCELLED?</tspan></text>
+<polygon points="720.0,1451.5 862.9,1510.5 720.0,1569.5 577.1,1510.5" fill="#fef9c3" stroke="#b45309" stroke-width="2"/><text font-family="DejaVu Sans, Verdana, sans-serif" font-size="13" fill="#0f172a" text-anchor="middle"><tspan x="720.0" dy="0" y="1506.5">hours before departure</tspan><tspan x="720.0" dy="17">&gt;= 24?</tspan></text>
+<rect x="593.1" y="1599.5" width="253.7" height="64.0" rx="5" fill="#ffffff" stroke="#334155" stroke-width="2"/><text font-family="DejaVu Sans, Verdana, sans-serif" font-size="13" fill="#0f172a" text-anchor="middle"><tspan x="720.0" dy="0" y="1627.5">Penalty = 10% of ticket</tspan><tspan x="720.0" dy="17">value</tspan></text>
+<polygon points="1860.0,1552.5 1980.0,1603.0 1860.0,1653.5 1740.0,1603.0" fill="#fef9c3" stroke="#b45309" stroke-width="2"/><text font-family="DejaVu Sans, Verdana, sans-serif" font-size="13" fill="#0f172a" text-anchor="middle"><tspan x="1860.0" dy="0" y="1607.5">hours &gt;= 12?</tspan></text>
+<rect x="1755.0" y="1683.5" width="210.0" height="48.0" rx="5" fill="#ffffff" stroke="#334155" stroke-width="2"/><text font-family="DejaVu Sans, Verdana, sans-serif" font-size="13" fill="#0f172a" text-anchor="middle"><tspan x="1860.0" dy="0" y="1712.0">Penalty = 30%</tspan></text>
+<rect x="2135.0" y="1645.0" width="210.0" height="48.0" rx="5" fill="#ffffff" stroke="#334155" stroke-width="2"/><text font-family="DejaVu Sans, Verdana, sans-serif" font-size="13" fill="#0f172a" text-anchor="middle"><tspan x="2240.0" dy="0" y="1673.5">Penalty = 100%</tspan></text>
+<rect x="581.3" y="1805.5" width="277.4" height="64.0" rx="5" fill="#ffffff" stroke="#334155" stroke-width="2"/><text font-family="DejaVu Sans, Verdana, sans-serif" font-size="13" fill="#0f172a" text-anchor="middle"><tspan x="720.0" dy="0" y="1833.5">Refund = ticket - penalty;</tspan><tspan x="720.0" dy="17">add to refunds</tspan></text>
+<rect x="2508.9" y="1413.0" width="222.1" height="64.0" rx="5" fill="#ffffff" stroke="#334155" stroke-width="2"/><text font-family="DejaVu Sans, Verdana, sans-serif" font-size="13" fill="#0f172a" text-anchor="middle"><tspan x="2620.0" dy="0" y="1441.0">Add ticket value to</tspan><tspan x="2620.0" dy="17">collections</tspan></text>
+<rect x="581.3" y="1929.5" width="277.4" height="64.0" rx="5" fill="#ffffff" stroke="#334155" stroke-width="2"/><text font-family="DejaVu Sans, Verdana, sans-serif" font-size="13" fill="#0f172a" text-anchor="middle"><tspan x="720.0" dy="0" y="1957.5">Print passenger details; i</tspan><tspan x="720.0" dy="17">= i + 1</tspan></text>
+<polygon points="221.2,2039.5 474.8,2039.5 458.8,2103.5 205.2,2103.5" fill="#dcfce7" stroke="#16a34a" stroke-width="2"/><text font-family="DejaVu Sans, Verdana, sans-serif" font-size="13" fill="#0f172a" text-anchor="middle"><tspan x="340.0" dy="0" y="2067.5">Print revenue summary:</tspan><tspan x="340.0" dy="17">collections, refunds, net</tspan></text>
+<rect x="209.2" y="2149.5" width="261.6" height="48.0" rx="5" fill="#ffffff" stroke="#334155" stroke-width="2"/><text font-family="DejaVu Sans, Verdana, sans-serif" font-size="13" fill="#0f172a" text-anchor="middle"><tspan x="340.0" dy="0" y="2178.0">Print rail-track pattern</tspan></text>
+<rect x="255.0" y="2243.5" width="170.0" height="46.0" rx="23.0" fill="#dbeafe" stroke="#2563eb" stroke-width="2"/><text font-family="DejaVu Sans, Verdana, sans-serif" font-size="13" fill="#0f172a" text-anchor="middle"><tspan x="340.0" dy="0" y="2271.0">End</tspan></text>
+</svg>

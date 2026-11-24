@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="155 14 1098 1540" width="1098" height="1540">
+<rect x="155" y="14" width="1098" height="1540" fill="#f8fafc"/>
+<text x="171" y="50" font-family="DejaVu Sans, Verdana, sans-serif" font-size="17" font-weight="bold" fill="#0f172a">Flowchart 8: Manufacturing Cost and Profitability Analysis</text>
+<line x1="340.0" y1="118.0" x2="340.0" y2="164.0" stroke="#334155" stroke-width="1.8"/><polygon points="340.0,164.0 334.8,154.5 345.2,154.5" fill="#334155"/>
+<line x1="340.0" y1="228.0" x2="340.0" y2="274.0" stroke="#334155" stroke-width="1.8"/><polygon points="340.0,274.0 334.8,264.5 345.2,264.5" fill="#334155"/>
+<line x1="340.0" y1="322.0" x2="340.0" y2="368.0" stroke="#334155" stroke-width="1.8"/><polygon points="340.0,368.0 334.8,358.5 345.2,358.5" fill="#334155"/>
+<line x1="486.9" y1="418.5" x2="720.0" y2="418.5" stroke="#334155" stroke-width="1.8"/>
+<line x1="720.0" y1="418.5" x2="720.0" y2="460.5" stroke="#334155" stroke-width="1.8"/><polygon points="720.0,460.5 714.8,451.0 725.2,451.0" fill="#334155"/>
+<line x1="720.0" y1="524.5" x2="720.0" y2="570.5" stroke="#334155" stroke-width="1.8"/><polygon points="720.0,570.5 714.8,561.0 725.2,561.0" fill="#334155"/>
+<line x1="720.0" y1="634.5" x2="720.0" y2="680.5" stroke="#334155" stroke-width="1.8"/><polygon points="720.0,680.5 714.8,671.0 725.2,671.0" fill="#334155"/>
+<line x1="720.0" y1="761.5" x2="720.0" y2="807.5" stroke="#334155" stroke-width="1.8"/><polygon points="720.0,807.5 714.8,798.0 725.2,798.0" fill="#334155"/>
+<line x1="720.0" y1="871.5" x2="720.0" y2="917.5" stroke="#334155" stroke-width="1.8"/><polygon points="720.0,917.5 714.8,908.0 725.2,908.0" fill="#334155"/>
+<line x1="720.0" y1="1018.5" x2="720.0" y2="1048.5" stroke="#334155" stroke-width="1.8"/><polygon points="720.0,1048.5 714.8,1039.0 725.2,1039.0" fill="#334155"/>
+<line x1="843.1" y1="968.0" x2="1100.0" y2="968.0" stroke="#334155" stroke-width="1.8"/>
+<line x1="1100.0" y1="968.0" x2="1100.0" y2="1010.0" stroke="#334155" stroke-width="1.8"/><polygon points="1100.0,1010.0 1094.8,1000.5 1105.2,1000.5" fill="#334155"/>
+<line x1="1100.0" y1="1074.0" x2="1100.0" y2="1110.5" stroke="#334155" stroke-width="1.8"/>
+<line x1="1100.0" y1="1110.5" x2="720.0" y2="1110.5" stroke="#334155" stroke-width="1.8"/><polygon points="720.0,1110.5 729.5,1105.3 729.5,1115.7" fill="#334155"/>
+<line x1="720.0" y1="1096.5" x2="720.0" y2="1110.5" stroke="#334155" stroke-width="1.8"/>
+<line x1="720.0" y1="1110.5" x2="720.0" y2="1156.5" stroke="#334155" stroke-width="1.8"/><polygon points="720.0,1156.5 714.8,1147.0 725.2,1147.0" fill="#334155"/>
+<line x1="720.0" y1="1204.5" x2="720.0" y2="1232.5" stroke="#334155" stroke-width="1.8"/><line x1="720.0" y1="1232.5" x2="530.0" y2="1232.5" stroke="#334155" stroke-width="1.8"/><line x1="530.0" y1="1232.5" x2="530.0" y2="336.0" stroke="#334155" stroke-width="1.8"/><line x1="530.0" y1="336.0" x2="340.0" y2="336.0" stroke="#334155" stroke-width="1.8"/><line x1="340.0" y1="336.0" x2="340.0" y2="368.0" stroke="#334155" stroke-width="1.8"/><polygon points="340.0,368.0 334.8,358.5 345.2,358.5" fill="#334155"/>
+<line x1="340.0" y1="469.0" x2="340.0" y2="1204.5" stroke="#334155" stroke-width="1.8"/>
+<line x1="340.0" y1="1204.5" x2="340.0" y2="1250.5" stroke="#334155" stroke-width="1.8"/><polygon points="340.0,1250.5 334.8,1241.0 345.2,1241.0" fill="#334155"/>
+<line x1="340.0" y1="1314.5" x2="340.0" y2="1360.5" stroke="#334155" stroke-width="1.8"/><polygon points="340.0,1360.5 334.8,1351.0 345.2,1351.0" fill="#334155"/>
+<line x1="340.0" y1="1424.5" x2="340.0" y2="1470.5" stroke="#334155" stroke-width="1.8"/><polygon points="340.0,1470.5 334.8,1461.0 345.2,1461.0" fill="#334155"/>
+<text x="500.9" y="409.5" font-family="DejaVu Sans, Verdana, sans-serif" font-size="12.5" fill="#475569">Yes</text>
+<text x="353.0" y="487.0" font-family="DejaVu Sans, Verdana, sans-serif" font-size="12.5" fill="#475569">No</text>
+<text x="733.0" y="1036.5" font-family="DejaVu Sans, Verdana, sans-serif" font-size="12.5" fill="#475569">Yes</text>
+<text x="857.1" y="959.0" font-family="DejaVu Sans, Verdana, sans-serif" font-size="12.5" fill="#475569">No</text>
+<rect x="255.0" y="72.0" width="170.0" height="46.0" rx="23.0" fill="#dbeafe" stroke="#2563eb" stroke-width="2"/><text font-family="DejaVu Sans, Verdana, sans-serif" font-size="13" fill="#0f172a" text-anchor="middle"><tspan x="340.0" dy="0" y="99.5">Start</tspan></text>
+<polygon points="221.2,164.0 474.8,164.0 458.8,228.0 205.2,228.0" fill="#dcfce7" stroke="#16a34a" stroke-width="2"/><text font-family="DejaVu Sans, Verdana, sans-serif" font-size="13" fill="#0f172a" text-anchor="middle"><tspan x="340.0" dy="0" y="192.0">Read product records with</tspan><tspan x="340.0" dy="17">BOM lists</tspan></text>
+<rect x="235.0" y="274.0" width="210.0" height="48.0" rx="5" fill="#ffffff" stroke="#334155" stroke-width="2"/><text font-family="DejaVu Sans, Verdana, sans-serif" font-size="13" fill="#0f172a" text-anchor="middle"><tspan x="340.0" dy="0" y="302.5">Set counters</tspan></text>
+<polygon points="340.0,368.0 486.9,418.5 340.0,469.0 193.1,418.5" fill="#fef9c3" stroke="#b45309" stroke-width="2"/><text font-family="DejaVu Sans, Verdana, sans-serif" font-size="13" fill="#0f172a" text-anchor="middle"><tspan x="340.0" dy="0" y="423.0">p &lt; number of products?</tspan></text>
+<rect x="577.4" y="460.5" width="285.3" height="64.0" rx="5" fill="#ffffff" stroke="#334155" stroke-width="2"/><text font-family="DejaVu Sans, Verdana, sans-serif" font-size="13" fill="#0f172a" text-anchor="middle"><tspan x="720.0" dy="0" y="488.5">Unpack product; walk BOM</tspan><tspan x="720.0" dy="17">nested list = material cost</tspan></text>
+<rect x="581.3" y="570.5" width="277.4" height="64.0" rx="5" fill="#ffffff" stroke="#334155" stroke-width="2"/><text font-family="DejaVu Sans, Verdana, sans-serif" font-size="13" fill="#0f172a" text-anchor="middle"><tspan x="720.0" dy="0" y="598.5">unit = material + labour +</tspan><tspan x="720.0" dy="17">machine; wastage on top</tspan></text>
+<rect x="581.3" y="680.5" width="277.4" height="81.0" rx="5" fill="#ffffff" stroke="#334155" stroke-width="2"/><text font-family="DejaVu Sans, Verdana, sans-serif" font-size="13" fill="#0f172a" text-anchor="middle"><tspan x="720.0" dy="0" y="708.5">batch cost = unit x</tspan><tspan x="720.0" dy="17">planned; revenue = price x</tspan><tspan x="720.0" dy="17">sold</tspan></text>
+<rect x="589.2" y="807.5" width="261.6" height="64.0" rx="5" fill="#ffffff" stroke="#334155" stroke-width="2"/><text font-family="DejaVu Sans, Verdana, sans-serif" font-size="13" fill="#0f172a" text-anchor="middle"><tspan x="720.0" dy="0" y="835.5">profit = revenue - batch</tspan><tspan x="720.0" dy="17">cost</tspan></text>
+<polygon points="720.0,917.5 843.2,968.0 720.0,1018.5 596.9,968.0" fill="#fef9c3" stroke="#b45309" stroke-width="2"/><text font-family="DejaVu Sans, Verdana, sans-serif" font-size="13" fill="#0f172a" text-anchor="middle"><tspan x="720.0" dy="0" y="972.5">profit &gt;= target?</tspan></text>
+<rect x="577.4" y="1048.5" width="285.3" height="48.0" rx="5" fill="#ffffff" stroke="#334155" stroke-width="2"/><text font-family="DejaVu Sans, Verdana, sans-serif" font-size="13" fill="#0f172a" text-anchor="middle"><tspan x="720.0" dy="0" y="1077.0">Count met; print TARGET MET</tspan></text>
+<rect x="985.0" y="1010.0" width="230.0" height="64.0" rx="5" fill="#ffffff" stroke="#334155" stroke-width="2"/><text font-family="DejaVu Sans, Verdana, sans-serif" font-size="13" fill="#0f172a" text-anchor="middle"><tspan x="1100.0" dy="0" y="1038.0">Count not met; print</tspan><tspan x="1100.0" dy="17">shortfall</tspan></text>
+<rect x="577.4" y="1156.5" width="285.3" height="48.0" rx="5" fill="#ffffff" stroke="#334155" stroke-width="2"/><text font-family="DejaVu Sans, Verdana, sans-serif" font-size="13" fill="#0f172a" text-anchor="middle"><tspan x="720.0" dy="0" y="1185.0">Print cost sheet; p = p + 1</tspan></text>
+<polygon points="221.2,1250.5 474.8,1250.5 458.8,1314.5 205.2,1314.5" fill="#dcfce7" stroke="#16a34a" stroke-width="2"/><text font-family="DejaVu Sans, Verdana, sans-serif" font-size="13" fill="#0f172a" text-anchor="middle"><tspan x="340.0" dy="0" y="1278.5">Print batch profitability</tspan><tspan x="340.0" dy="17">summary</tspan></text>
+<rect x="221.1" y="1360.5" width="237.9" height="64.0" rx="5" fill="#ffffff" stroke="#334155" stroke-width="2"/><text font-family="DejaVu Sans, Verdana, sans-serif" font-size="13" fill="#0f172a" text-anchor="middle"><tspan x="340.0" dy="0" y="1388.5">Print production-line</tspan><tspan x="340.0" dy="17">pattern</tspan></text>
+<rect x="255.0" y="1470.5" width="170.0" height="46.0" rx="23.0" fill="#dbeafe" stroke="#2563eb" stroke-width="2"/><text font-family="DejaVu Sans, Verdana, sans-serif" font-size="13" fill="#0f172a" text-anchor="middle"><tspan x="340.0" dy="0" y="1498.0">End</tspan></text>
+</svg>

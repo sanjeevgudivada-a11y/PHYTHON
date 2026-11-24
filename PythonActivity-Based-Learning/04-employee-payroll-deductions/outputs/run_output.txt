@@ -1,0 +1,168 @@
+==============================================================
+=          EMPLOYEE PAYROLL AND DEDUCTION ANALYSIS           =
+==============================================================
+Gross = basic + HRA 40% + DA 10% + TA 3000 + OT x 150 + incentive
+Deductions: PF 12% of basic (max 1800) + professional tax slab
+            + progressive tax (0% to 2.5L, 5% to 5L, 10% to 10L, 20%)
+
+=== TEST CASE 1: Batch 1 - Employees with no income tax ===
+--------------------------------------------------------------
+
+##############################################################
+# E101  Ravi Teja
+##############################################################
+  Basic salary                              12000.00
+  HRA (40% of basic)                         4800.00
+  DA (10% of basic)                          1200.00
+  Transport allowance                        3000.00
+  Overtime (0 hrs x Rs 150)                     0.00
+  Incentive                                     0.00
+  --------------------------------------------------
+  GROSS SALARY                              21000.00
+  PF (12% of basic, max 1800)                1440.00
+  Professional tax                            300.00
+  Income tax (progressive)                      0.00
+  --------------------------------------------------
+  TOTAL DEDUCTIONS                           1740.00
+  NET TAKE-HOME                             19260.00
+##############################################################
+  Deduction rate = 8.29% of gross
+
+##############################################################
+# E102  Sunita Rao
+##############################################################
+  Basic salary                               8000.00
+  HRA (40% of basic)                         3200.00
+  DA (10% of basic)                           800.00
+  Transport allowance                        3000.00
+  Overtime (0 hrs x Rs 150)                     0.00
+  Incentive                                     0.00
+  --------------------------------------------------
+  GROSS SALARY                              15000.00
+  PF (12% of basic, max 1800)                 960.00
+  Professional tax                            110.00
+  Income tax (progressive)                      0.00
+  --------------------------------------------------
+  TOTAL DEDUCTIONS                           1070.00
+  NET TAKE-HOME                             13930.00
+##############################################################
+  Deduction rate = 7.13% of gross
+
+##############################################################
+# E103  Deepa Menon
+##############################################################
+  Basic salary                              45000.00
+  HRA (40% of basic)                        18000.00
+  DA (10% of basic)                          4500.00
+  Transport allowance                        3000.00
+  Overtime (20 hrs x Rs 150)                 3000.00
+  Incentive                                  5000.00
+  --------------------------------------------------
+  GROSS SALARY                              78500.00
+  PF (12% of basic, max 1800)                1800.00
+  Professional tax                            300.00
+  Income tax (progressive)                      0.00
+  --------------------------------------------------
+  TOTAL DEDUCTIONS                           2100.00
+  NET TAKE-HOME                             76400.00
+##############################################################
+  Deduction rate = 2.68% of gross
+
+--------------------------------------------------------------
+  Batch total gross                        114500.00
+  Batch total deductions                     4910.00
+  Batch total net                          109590.00
+  Average net per employee                  36530.00
+--------------------------------------------------------------
+
+=== TEST CASE 2: Batch 2 - Employees entering income-tax slabs ===
+--------------------------------------------------------------
+
+##############################################################
+# E104  Arun Prasad
+##############################################################
+  Basic salary                             200000.00
+  HRA (40% of basic)                        80000.00
+  DA (10% of basic)                         20000.00
+  Transport allowance                        3000.00
+  Overtime (10 hrs x Rs 150)                 1500.00
+  Incentive                                     0.00
+  --------------------------------------------------
+  GROSS SALARY                             304500.00
+  PF (12% of basic, max 1800)                1800.00
+  Professional tax                            300.00
+  Income tax (progressive)                   2620.00
+  --------------------------------------------------
+  TOTAL DEDUCTIONS                           4720.00
+  NET TAKE-HOME                            299780.00
+##############################################################
+  Deduction rate = 1.55% of gross
+
+##############################################################
+# E105  Meena Krishnan
+##############################################################
+  Basic salary                             350000.00
+  HRA (40% of basic)                       140000.00
+  DA (10% of basic)                         35000.00
+  Transport allowance                        3000.00
+  Overtime (0 hrs x Rs 150)                     0.00
+  Incentive                                     0.00
+  --------------------------------------------------
+  GROSS SALARY                             528000.00
+  PF (12% of basic, max 1800)                1800.00
+  Professional tax                            300.00
+  Income tax (progressive)                  15090.00
+  --------------------------------------------------
+  TOTAL DEDUCTIONS                          17190.00
+  NET TAKE-HOME                            510810.00
+##############################################################
+  Deduction rate = 3.26% of gross
+
+--------------------------------------------------------------
+  Batch total gross                        832500.00
+  Batch total deductions                    21910.00
+  Batch total net                          810590.00
+  Average net per employee                 405295.00
+--------------------------------------------------------------
+
+=== TEST CASE 3: Batch 3 - Boundary: taxable income exactly 2,50,000 ===
+--------------------------------------------------------------
+
+##############################################################
+# E106  Kiran Joshi
+##############################################################
+  Basic salary                             166000.00
+  HRA (40% of basic)                        66400.00
+  DA (10% of basic)                         16600.00
+  Transport allowance                        3000.00
+  Overtime (0 hrs x Rs 150)                     0.00
+  Incentive                                   100.00
+  --------------------------------------------------
+  GROSS SALARY                             252100.00
+  PF (12% of basic, max 1800)                1800.00
+  Professional tax                            300.00
+  Income tax (progressive)                      0.00
+  --------------------------------------------------
+  TOTAL DEDUCTIONS                           2100.00
+  NET TAKE-HOME                            250000.00
+##############################################################
+  Deduction rate = 0.83% of gross
+
+--------------------------------------------------------------
+  Batch total gross                        252100.00
+  Batch total deductions                     2100.00
+  Batch total net                          250000.00
+  Average net per employee                 250000.00
+--------------------------------------------------------------
+
+PATTERN - salary diamond:
+    * 
+   * * 
+  * * * 
+ * * * * 
+* * * * * 
+ * * * * 
+  * * * 
+   * * 
+    * 
+End of payroll report.

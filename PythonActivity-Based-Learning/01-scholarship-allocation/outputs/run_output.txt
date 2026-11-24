@@ -1,0 +1,78 @@
+****************************************************************
+*              UNIVERSITY SCHOLARSHIP ALLOCATION               *
+****************************************************************
+Rules: aggregate >= 75 | every subject >= 40 | attendance >= 70 | income <= 500000
+Tie-break: Aggregate DESC > Attendance DESC > Income ASC > Name ASC
+
+=== TEST CASE 1: Batch 1 - Mixed applicants (eligible and rejected) ===
+----------------------------------------------------------------
+Name               Agg  SubjMin   Att     Income  Status
+----------------------------------------------------------------
+Asha Rao          84.5       78    92    420,000  ELIGIBLE
+Vikram Iyer       76.0       55    71    380,000  ELIGIBLE
+Meera Nair        91.5       88    96    250,000  ELIGIBLE
+Rohan Das         68.0       65    85    300,000  REJECTED
+Sara Khan         84.5       80    90    450,000  ELIGIBLE
+Deepak Joshi      79.0       45    68    550,000  REJECTED
+Anita Paul        88.0       84    88    600,000  REJECTED
+Kabir Sen         91.5       85    96    250,000  ELIGIBLE
+
+Rejection reasons:
+  - Rohan Das : aggregate below cutoff
+  - Deepak Joshi : attendance below cutoff, income above limit
+  - Anita Paul : income above limit
+
+RANKED LIST OF ELIGIBLE STUDENTS
+Rank  Name               Agg   Att     Income
+----------------------------------------------------------------
+1     Kabir Sen         91.5    96    250,000
+2     Meera Nair        91.5    96    250,000
+3     Asha Rao          84.5    92    420,000
+4     Sara Khan         84.5    90    450,000
+5     Vikram Iyer       76.0    71    380,000
+----------------------------------------------------------------
+Summary: total=8  eligible=5  rejected=3
+
+=== TEST CASE 2: Batch 2 - All applicants eligible ===
+----------------------------------------------------------------
+Name               Agg  SubjMin   Att     Income  Status
+----------------------------------------------------------------
+Neha Verma        90.0       87    95    480,000  ELIGIBLE
+Arjun Reddy       82.5       75    80    350,000  ELIGIBLE
+Isha Gupta        87.0       82    91    499,000  ELIGIBLE
+
+RANKED LIST OF ELIGIBLE STUDENTS
+Rank  Name               Agg   Att     Income
+----------------------------------------------------------------
+1     Neha Verma        90.0    95    480,000
+2     Isha Gupta        87.0    91    499,000
+3     Arjun Reddy       82.5    80    350,000
+----------------------------------------------------------------
+Summary: total=3  eligible=3  rejected=0
+
+=== TEST CASE 3: Batch 3 - No applicant eligible ===
+----------------------------------------------------------------
+Name               Agg  SubjMin   Att     Income  Status
+----------------------------------------------------------------
+Ravi Kumar        74.0       70    75    300,000  REJECTED
+Tina Roy          80.0       60    65    250,000  REJECTED
+Amit Shah         85.0       80    80    750,000  REJECTED
+Pooja Das         60.0       35    55    200,000  REJECTED
+
+Rejection reasons:
+  - Ravi Kumar : aggregate below cutoff
+  - Tina Roy : attendance below cutoff
+  - Amit Shah : income above limit
+  - Pooja Das : aggregate below cutoff, subject below minimum, attendance below cutoff
+
+No eligible students in this batch.
+----------------------------------------------------------------
+Summary: total=4  eligible=0  rejected=4
+
+PATTERN - star pyramid closing the report:
+     * 
+    * * 
+   * * * 
+  * * * * 
+ * * * * * 
+End of scholarship report.

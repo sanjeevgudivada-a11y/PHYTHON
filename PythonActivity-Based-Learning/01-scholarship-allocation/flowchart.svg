@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="159 14 1489 1465" width="1489" height="1465">
+<rect x="159" y="14" width="1489" height="1465" fill="#f8fafc"/>
+<text x="175" y="50" font-family="DejaVu Sans, Verdana, sans-serif" font-size="17" font-weight="bold" fill="#0f172a">Flowchart 1: University Scholarship Allocation</text>
+<line x1="340.0" y1="118.0" x2="340.0" y2="164.0" stroke="#334155" stroke-width="1.8"/><polygon points="340.0,164.0 334.8,154.5 345.2,154.5" fill="#334155"/>
+<line x1="340.0" y1="228.0" x2="340.0" y2="274.0" stroke="#334155" stroke-width="1.8"/><polygon points="340.0,274.0 334.8,264.5 345.2,264.5" fill="#334155"/>
+<line x1="340.0" y1="355.0" x2="340.0" y2="401.0" stroke="#334155" stroke-width="1.8"/><polygon points="340.0,401.0 334.8,391.5 345.2,391.5" fill="#334155"/>
+<line x1="460.0" y1="460.0" x2="720.0" y2="460.0" stroke="#334155" stroke-width="1.8"/>
+<line x1="720.0" y1="460.0" x2="720.0" y2="502.0" stroke="#334155" stroke-width="1.8"/><polygon points="720.0,502.0 714.8,492.5 725.2,492.5" fill="#334155"/>
+<line x1="720.0" y1="583.0" x2="720.0" y2="629.0" stroke="#334155" stroke-width="1.8"/><polygon points="720.0,629.0 714.8,619.5 725.2,619.5" fill="#334155"/>
+<line x1="720.0" y1="764.0" x2="720.0" y2="794.0" stroke="#334155" stroke-width="1.8"/><polygon points="720.0,794.0 714.8,784.5 725.2,784.5" fill="#334155"/>
+<line x1="720.0" y1="912.0" x2="720.0" y2="942.0" stroke="#334155" stroke-width="1.8"/><polygon points="720.0,942.0 714.8,932.5 725.2,932.5" fill="#334155"/>
+<line x1="855.0" y1="853.0" x2="1100.0" y2="853.0" stroke="#334155" stroke-width="1.8"/>
+<line x1="1100.0" y1="853.0" x2="1100.0" y2="895.0" stroke="#334155" stroke-width="1.8"/><polygon points="1100.0,895.0 1094.8,885.5 1105.2,885.5" fill="#334155"/>
+<line x1="1100.0" y1="959.0" x2="1100.0" y2="1004.0" stroke="#334155" stroke-width="1.8"/>
+<line x1="1100.0" y1="1004.0" x2="720.0" y2="1004.0" stroke="#334155" stroke-width="1.8"/><polygon points="720.0,1004.0 729.5,998.8 729.5,1009.2" fill="#334155"/>
+<line x1="720.0" y1="990.0" x2="720.0" y2="1004.0" stroke="#334155" stroke-width="1.8"/>
+<line x1="859.0" y1="696.5" x2="1480.0" y2="696.5" stroke="#334155" stroke-width="1.8"/>
+<line x1="1480.0" y1="696.5" x2="1480.0" y2="738.5" stroke="#334155" stroke-width="1.8"/><polygon points="1480.0,738.5 1474.8,729.0 1485.2,729.0" fill="#334155"/>
+<line x1="1480.0" y1="802.5" x2="1480.0" y2="1018.0" stroke="#334155" stroke-width="1.8"/>
+<line x1="1480.0" y1="1018.0" x2="720.0" y2="1018.0" stroke="#334155" stroke-width="1.8"/><polygon points="720.0,1018.0 729.5,1012.8 729.5,1023.2" fill="#334155"/>
+<line x1="720.0" y1="1004.0" x2="720.0" y2="1018.0" stroke="#334155" stroke-width="1.8"/>
+<line x1="720.0" y1="1018.0" x2="720.0" y2="1064.0" stroke="#334155" stroke-width="1.8"/><polygon points="720.0,1064.0 714.8,1054.5 725.2,1054.5" fill="#334155"/>
+<line x1="720.0" y1="1112.0" x2="720.0" y2="1140.0" stroke="#334155" stroke-width="1.8"/><line x1="720.0" y1="1140.0" x2="530.0" y2="1140.0" stroke="#334155" stroke-width="1.8"/><line x1="530.0" y1="1140.0" x2="530.0" y2="369.0" stroke="#334155" stroke-width="1.8"/><line x1="530.0" y1="369.0" x2="340.0" y2="369.0" stroke="#334155" stroke-width="1.8"/><line x1="340.0" y1="369.0" x2="340.0" y2="401.0" stroke="#334155" stroke-width="1.8"/><polygon points="340.0,401.0 334.8,391.5 345.2,391.5" fill="#334155"/>
+<line x1="340.0" y1="519.0" x2="340.0" y2="1112.0" stroke="#334155" stroke-width="1.8"/>
+<line x1="340.0" y1="1112.0" x2="340.0" y2="1158.0" stroke="#334155" stroke-width="1.8"/><polygon points="340.0,1158.0 334.8,1148.5 345.2,1148.5" fill="#334155"/>
+<line x1="340.0" y1="1222.0" x2="340.0" y2="1268.0" stroke="#334155" stroke-width="1.8"/><polygon points="340.0,1268.0 334.8,1258.5 345.2,1258.5" fill="#334155"/>
+<line x1="340.0" y1="1349.0" x2="340.0" y2="1395.0" stroke="#334155" stroke-width="1.8"/><polygon points="340.0,1395.0 334.8,1385.5 345.2,1385.5" fill="#334155"/>
+<text x="474.0" y="451.0" font-family="DejaVu Sans, Verdana, sans-serif" font-size="12.5" fill="#475569">Yes</text>
+<text x="353.0" y="537.0" font-family="DejaVu Sans, Verdana, sans-serif" font-size="12.5" fill="#475569">No</text>
+<text x="733.0" y="782.0" font-family="DejaVu Sans, Verdana, sans-serif" font-size="12.5" fill="#475569">Yes</text>
+<text x="733.0" y="930.0" font-family="DejaVu Sans, Verdana, sans-serif" font-size="12.5" fill="#475569">Yes</text>
+<text x="869.0" y="844.0" font-family="DejaVu Sans, Verdana, sans-serif" font-size="12.5" fill="#475569">No</text>
+<text x="873.0" y="687.5" font-family="DejaVu Sans, Verdana, sans-serif" font-size="12.5" fill="#475569">No</text>
+<rect x="255.0" y="72.0" width="170.0" height="46.0" rx="23.0" fill="#dbeafe" stroke="#2563eb" stroke-width="2"/><text font-family="DejaVu Sans, Verdana, sans-serif" font-size="13" fill="#0f172a" text-anchor="middle"><tspan x="340.0" dy="0" y="99.5">Start</tspan></text>
+<polygon points="217.3,164.0 478.7,164.0 462.7,228.0 201.3,228.0" fill="#dcfce7" stroke="#16a34a" stroke-width="2"/><text font-family="DejaVu Sans, Verdana, sans-serif" font-size="13" fill="#0f172a" text-anchor="middle"><tspan x="340.0" dy="0" y="192.0">Read all applicant records</tspan><tspan x="340.0" dy="17">into a list</tspan></text>
+<rect x="197.3" y="274.0" width="285.3" height="81.0" rx="5" fill="#ffffff" stroke="#334155" stroke-width="2"/><text font-family="DejaVu Sans, Verdana, sans-serif" font-size="13" fill="#0f172a" text-anchor="middle"><tspan x="340.0" dy="0" y="302.0">Set index i = 0 and create</tspan><tspan x="340.0" dy="17">empty eligible and rejected</tspan><tspan x="340.0" dy="17">lists</tspan></text>
+<polygon points="340.0,401.0 460.0,460.0 340.0,519.0 220.0,460.0" fill="#fef9c3" stroke="#b45309" stroke-width="2"/><text font-family="DejaVu Sans, Verdana, sans-serif" font-size="13" fill="#0f172a" text-anchor="middle"><tspan x="340.0" dy="0" y="456.0">i &lt; number of</tspan><tspan x="340.0" dy="17">applicants?</tspan></text>
+<rect x="585.2" y="502.0" width="269.5" height="81.0" rx="5" fill="#ffffff" stroke="#334155" stroke-width="2"/><text font-family="DejaVu Sans, Verdana, sans-serif" font-size="13" fill="#0f172a" text-anchor="middle"><tspan x="720.0" dy="0" y="530.0">Unpack record i: name,</tspan><tspan x="720.0" dy="17">aggregate, subject marks,</tspan><tspan x="720.0" dy="17">attendance, income</tspan></text>
+<polygon points="720.0,629.0 858.9,696.5 720.0,764.0 581.0,696.5" fill="#fef9c3" stroke="#b45309" stroke-width="2"/><text font-family="DejaVu Sans, Verdana, sans-serif" font-size="13" fill="#0f172a" text-anchor="middle"><tspan x="720.0" dy="0" y="684.0">aggregate &gt;= 75 AND</tspan><tspan x="720.0" dy="17">every subject mark &gt;=</tspan><tspan x="720.0" dy="17">40?</tspan></text>
+<polygon points="720.0,794.0 855.0,853.0 720.0,912.0 585.0,853.0" fill="#fef9c3" stroke="#b45309" stroke-width="2"/><text font-family="DejaVu Sans, Verdana, sans-serif" font-size="13" fill="#0f172a" text-anchor="middle"><tspan x="720.0" dy="0" y="849.0">attendance &gt;= 70 AND</tspan><tspan x="720.0" dy="17">income &lt;= 500000?</tspan></text>
+<rect x="577.4" y="942.0" width="285.3" height="48.0" rx="5" fill="#ffffff" stroke="#334155" stroke-width="2"/><text font-family="DejaVu Sans, Verdana, sans-serif" font-size="13" fill="#0f172a" text-anchor="middle"><tspan x="720.0" dy="0" y="970.5">Add record to eligible list</tspan></text>
+<rect x="965.2" y="895.0" width="269.5" height="64.0" rx="5" fill="#ffffff" stroke="#334155" stroke-width="2"/><text font-family="DejaVu Sans, Verdana, sans-serif" font-size="13" fill="#0f172a" text-anchor="middle"><tspan x="1100.0" dy="0" y="923.0">Reject: low attendance or</tspan><tspan x="1100.0" dy="17">high income</tspan></text>
+<rect x="1349.2" y="738.5" width="261.6" height="64.0" rx="5" fill="#ffffff" stroke="#334155" stroke-width="2"/><text font-family="DejaVu Sans, Verdana, sans-serif" font-size="13" fill="#0f172a" text-anchor="middle"><tspan x="1480.0" dy="0" y="766.5">Reject: low aggregate or</tspan><tspan x="1480.0" dy="17">low subject marks</tspan></text>
+<rect x="615.0" y="1064.0" width="210.0" height="48.0" rx="5" fill="#ffffff" stroke="#334155" stroke-width="2"/><text font-family="DejaVu Sans, Verdana, sans-serif" font-size="13" fill="#0f172a" text-anchor="middle"><tspan x="720.0" dy="0" y="1092.5">Set i = i + 1</tspan></text>
+<rect x="205.2" y="1158.0" width="269.5" height="64.0" rx="5" fill="#ffffff" stroke="#334155" stroke-width="2"/><text font-family="DejaVu Sans, Verdana, sans-serif" font-size="13" fill="#0f172a" text-anchor="middle"><tspan x="340.0" dy="0" y="1186.0">Rank eligible students</tspan><tspan x="340.0" dy="17">using the tie-break rules</tspan></text>
+<polygon points="217.3,1268.0 478.7,1268.0 462.7,1349.0 201.3,1349.0" fill="#dcfce7" stroke="#16a34a" stroke-width="2"/><text font-family="DejaVu Sans, Verdana, sans-serif" font-size="13" fill="#0f172a" text-anchor="middle"><tspan x="340.0" dy="0" y="1296.0">Print ranked eligible list</tspan><tspan x="340.0" dy="17">and rejected list with</tspan><tspan x="340.0" dy="17">reasons</tspan></text>
+<rect x="255.0" y="1395.0" width="170.0" height="46.0" rx="23.0" fill="#dbeafe" stroke="#2563eb" stroke-width="2"/><text font-family="DejaVu Sans, Verdana, sans-serif" font-size="13" fill="#0f172a" text-anchor="middle"><tspan x="340.0" dy="0" y="1422.5">End</tspan></text>
+</svg>

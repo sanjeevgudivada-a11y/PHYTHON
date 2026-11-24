@@ -1,0 +1,154 @@
+==========================================================================
+=                RAILWAY FARE AND RESERVATION CALCULATOR                 =
+==========================================================================
+Fare slabs: <=100 km Rs 1.50/km | <=500 Rs 1.25 | <=1000 Rs 1.00
+           above 1000 Rs 0.85 per km (first matching slab)
+Classes: SL x1.00 fee 20 | 3A x1.80 fee 40 | 2A x2.50 fee 60
+         1A x3.20 fee 80 | Age: <5 free, 5-11 50% off, >=60 40% off
+Cancellation: >=24h 10% penalty | >=12h 30% | <12h 100%
+
+=== TEST CASE 1: Batch 1 - Mixed classes and ages, all booked ===
+--------------------------------------------------------------------------
+
+--- Anand (35 y) : 250 km Sleeper | BOOKED ---
+  Base fare (250 km @ Rs 1.25/km)                  312.50
+  Class multiplier (Sleeper x 1.0)                 312.50
+  Age concession (none)                              0.00
+  Reservation fee (Sleeper)                         20.00
+  TOTAL PAYABLE                                    332.50
+
+--- Bhavana (62 y) : 250 km AC 3-Tier | BOOKED ---
+  Base fare (250 km @ Rs 1.25/km)                  312.50
+  Class multiplier (AC 3-Tier x 1.8)               562.50
+  Age concession (senior 60+ (40%))               -225.00
+  Reservation fee (AC 3-Tier)                       40.00
+  TOTAL PAYABLE                                    377.50
+
+--- Chetan (8 y) : 200 km AC 2-Tier | BOOKED ---
+  Base fare (200 km @ Rs 1.25/km)                  250.00
+  Class multiplier (AC 2-Tier x 2.5)               625.00
+  Age concession (child 5-11 (50%))               -312.50
+  Reservation fee (AC 2-Tier)                       60.00
+  TOTAL PAYABLE                                    372.50
+
+--- Divya (28 y) : 1500 km AC First | BOOKED ---
+  Base fare (1500 km @ Rs 0.85/km)                1275.00
+  Class multiplier (AC First x 3.2)               4080.00
+  Age concession (none)                              0.00
+  Reservation fee (AC First)                        80.00
+  TOTAL PAYABLE                                   4160.00
+
+--- Eshwar (45 y) : 100 km Sleeper | BOOKED ---
+  Base fare (100 km @ Rs 1.5/km)                   150.00
+  Class multiplier (Sleeper x 1.0)                 150.00
+  Age concession (none)                              0.00
+  Reservation fee (Sleeper)                         20.00
+  TOTAL PAYABLE                                    170.00
+
+--------------------------------------------------------------------------
+  Booked: 5  collections Rs 5412.50
+  Cancelled: 0  refunds Rs 0.00
+  NET REVENUE Rs 5412.50
+--------------------------------------------------------------------------
+
+=== TEST CASE 2: Batch 2 - Cancellations at different notice times ===
+--------------------------------------------------------------------------
+
+--- Fatima (30 y) : 400 km AC 3-Tier | CANCELLED, 30 h notice ---
+  Base fare (400 km @ Rs 1.25/km)                  500.00
+  Class multiplier (AC 3-Tier x 1.8)               900.00
+  Age concession (none)                              0.00
+  Reservation fee                                   40.00
+  Ticket value                                     940.00
+  Cancellation penalty (10%)                       -94.00
+  REFUND                                           846.00
+
+--- Girish (55 y) : 600 km AC 2-Tier | CANCELLED, 18 h notice ---
+  Base fare (600 km @ Rs 1.0/km)                   600.00
+  Class multiplier (AC 2-Tier x 2.5)              1500.00
+  Age concession (none)                              0.00
+  Reservation fee                                   60.00
+  Ticket value                                    1560.00
+  Cancellation penalty (30%)                      -468.00
+  REFUND                                          1092.00
+
+--- Harini (40 y) : 300 km Sleeper | CANCELLED, 6 h notice ---
+  Base fare (300 km @ Rs 1.25/km)                  375.00
+  Class multiplier (Sleeper x 1.0)                 375.00
+  Age concession (none)                              0.00
+  Reservation fee                                   20.00
+  Ticket value                                     395.00
+  Cancellation penalty (100%)                     -395.00
+  REFUND                                             0.00
+
+--- Ishaan (62 y) : 500 km AC 3-Tier | BOOKED ---
+  Base fare (500 km @ Rs 1.25/km)                  625.00
+  Class multiplier (AC 3-Tier x 1.8)              1125.00
+  Age concession (senior 60+ (40%))               -450.00
+  Reservation fee (AC 3-Tier)                       40.00
+  TOTAL PAYABLE                                    715.00
+
+--- Baby Kavi (2 y) : 200 km AC 2-Tier | BOOKED ---
+  Base fare (200 km @ Rs 1.25/km)                  250.00
+  Class multiplier (AC 2-Tier x 2.5)               625.00
+  Age concession (child under 5 (free))           -625.00
+  Reservation fee (AC 2-Tier)                        0.00
+  TOTAL PAYABLE                                      0.00
+
+--------------------------------------------------------------------------
+  Booked: 2  collections Rs 715.00
+  Cancelled: 3  refunds Rs 1938.00
+  NET REVENUE Rs -1223.00
+--------------------------------------------------------------------------
+
+=== TEST CASE 3: Batch 3 - Slab and age boundaries ===
+--------------------------------------------------------------------------
+
+--- Jaya (5 y) : 100 km Sleeper | BOOKED ---
+  Base fare (100 km @ Rs 1.5/km)                   150.00
+  Class multiplier (Sleeper x 1.0)                 150.00
+  Age concession (child 5-11 (50%))                -75.00
+  Reservation fee (Sleeper)                         20.00
+  TOTAL PAYABLE                                     95.00
+
+--- Kiran (11 y) : 500 km Sleeper | BOOKED ---
+  Base fare (500 km @ Rs 1.25/km)                  625.00
+  Class multiplier (Sleeper x 1.0)                 625.00
+  Age concession (child 5-11 (50%))               -312.50
+  Reservation fee (Sleeper)                         20.00
+  TOTAL PAYABLE                                    332.50
+
+--- Lata (60 y) : 1000 km AC 3-Tier | BOOKED ---
+  Base fare (1000 km @ Rs 1.0/km)                 1000.00
+  Class multiplier (AC 3-Tier x 1.8)              1800.00
+  Age concession (senior 60+ (40%))               -720.00
+  Reservation fee (AC 3-Tier)                       40.00
+  TOTAL PAYABLE                                   1120.00
+
+--- Mohan (12 y) : 150 km Sleeper | BOOKED ---
+  Base fare (150 km @ Rs 1.25/km)                  187.50
+  Class multiplier (Sleeper x 1.0)                 187.50
+  Age concession (none)                              0.00
+  Reservation fee (Sleeper)                         20.00
+  TOTAL PAYABLE                                    207.50
+
+--- Naina (60 y) : 1500 km AC First | CANCELLED, 24 h notice ---
+  Base fare (1500 km @ Rs 0.85/km)                1275.00
+  Class multiplier (AC First x 3.2)               4080.00
+  Age concession (senior 60+ (40%))              -1632.00
+  Reservation fee                                   80.00
+  Ticket value                                    2528.00
+  Cancellation penalty (10%)                      -252.80
+  REFUND                                          2275.20
+
+--------------------------------------------------------------------------
+  Booked: 4  collections Rs 1755.00
+  Cancelled: 1  refunds Rs 2275.20
+  NET REVENUE Rs -520.20
+--------------------------------------------------------------------------
+
+PATTERN - rail track:
+  -o-o-o-o-o-o-o-o-
+  -o-o-o-o-o-o-o-o-o-o-o-o-o-o-o-o-
+  -o-o-o-o-o-o-o-o-o-o-o-o-o-o-o-o-o-o-o-o-o-o-o-o-
+End of railway report.
