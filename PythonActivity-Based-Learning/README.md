@@ -1,10 +1,5 @@
-# Python Activity-Based Learning
-
-A collection of **10 complete Python case studies** built strictly from the
-course syllabus: computational thinking, algorithms, flowcharts,
-pseudocode, variables, data types, operators, conditional statements,
-loops, strings, pattern generation, lists, nested lists, tuples, tuple
-operations and unpacking.
+# Python Activity
+my name is GUDIVADA GNANI SANJEEV .From section 2 my roll number is N26V01A0100 
 
 Every case study contains the full set of deliverables: **problem
 statement · objectives · assumptions · algorithm · flowchart · pseudocode ·
